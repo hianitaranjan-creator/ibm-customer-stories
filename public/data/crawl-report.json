@@ -1,0 +1,16 @@
+{
+  "crawlStartedAt": "2026-08-28T07:27:46.630Z",
+  "crawlFinishedAt": "2026-08-31T11:19:23.207Z",
+  "mode": "all",
+  "advertisedTotal": 1186,
+  "cataloguePagesProcessed": 50762,
+  "uniqueStoryUrlsDiscovered": 33,
+  "storiesSuccessfullyProcessed": 1183,
+  "storiesFailed": 1,
+  "duplicateUrlsRemoved": 1776637,
+  "dataPlatformRelevant": 0,
+  "storiesNeedingManualReview": 0,
+  "percentageCollected": "99.75%",
+  "validationPassed": true,
+  "note": "Full crawl passed validation (≥95% of advertised stories collected)."
+}

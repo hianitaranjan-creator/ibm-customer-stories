@@ -1,0 +1,915 @@
+[2026-08-24 12:44:13] [INFO] === Run started | Mode: Test (10 stories) ===
+[2026-08-24 12:44:15] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-24 12:44:15] [INFO] robots.txt loaded successfully.
+[2026-08-24 12:44:15] [INFO] Discovering story URLs…
+[2026-08-24 12:44:15] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies
+[2026-08-24 12:44:17] [INFO] Cached: https://www.ibm.com/case-studies  →  ibm_com_case-studies_0f673bbc.html
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 12:44:18] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 12:44:18] [INFO] Listing page https://www.ibm.com/case-studies: 10 new URLs found (total: 10)
+[2026-08-24 12:44:18] [INFO] Total story URLs discovered: 10
+[2026-08-24 12:44:18] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 12:44:21] [INFO] Cached: https://www.ibm.com/case-studies/blue-pearl-bob  →  ibm_com_case-studies_blue-pearl-bob_8170b630.html
+[2026-08-24 12:44:21] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 12:44:21] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/unipol
+[2026-08-24 12:44:24] [INFO] Cached: https://www.ibm.com/case-studies/unipol  →  ibm_com_case-studies_unipol_fd1aca7d.html
+[2026-08-24 12:44:24] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 4 proof point(s)
+[2026-08-24 12:44:24] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 12:44:28] [INFO] Cached: https://www.ibm.com/case-studies/nationwide-building-society  →  ibm_com_case-studies_nationwide-building-society_8931385d.html
+[2026-08-24 12:44:29] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 14 proof point(s)
+[2026-08-24 12:44:29] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 12:44:32] [INFO] Cached: https://www.ibm.com/case-studies/ca-dhcs  →  ibm_com_case-studies_ca-dhcs_faa09fe0.html
+[2026-08-24 12:44:32] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 12:44:32] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 12:44:34] [INFO] Cached: https://www.ibm.com/case-studies/ibm-client-zero  →  ibm_com_case-studies_ibm-client-zero_6ebe9f5d.html
+[2026-08-24 12:44:34] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 6 proof point(s)
+[2026-08-24 12:44:34] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 12:44:37] [INFO] Cached: https://www.ibm.com/case-studies/state-of-oregon-ois  →  ibm_com_case-studies_state-of-oregon-ois_c6b17ec7.html
+[2026-08-24 12:44:38] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 12:44:38] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/sixt
+[2026-08-24 12:44:40] [INFO] Cached: https://www.ibm.com/case-studies/sixt  →  ibm_com_case-studies_sixt_8abbbdc2.html
+[2026-08-24 12:44:41] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 12:44:41] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 12:44:43] [INFO] Cached: https://www.ibm.com/case-studies/ibm-askhr  →  ibm_com_case-studies_ibm-askhr_ac3e53ce.html
+[2026-08-24 12:44:43] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 5 proof point(s)
+[2026-08-24 12:44:43] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 12:44:47] [INFO] Cached: https://www.ibm.com/case-studies/dynamiq  →  ibm_com_case-studies_dynamiq_4aea132f.html
+[2026-08-24 12:44:47] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 7 proof point(s)
+[2026-08-24 12:44:47] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 12:44:50] [INFO] Cached: https://www.ibm.com/case-studies/lockheed-martin  →  ibm_com_case-studies_lockheed-martin_6cf0b02b.html
+[2026-08-24 12:44:50] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 13 proof point(s)
+[2026-08-24 12:44:50] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 12:44:50] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context; Data integration and modernization
+[2026-08-24 12:44:50] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 12:44:51] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:44:51] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:44:51] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:44:51] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:44:51] [INFO] Classified S0008: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-24 12:44:51] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 12:44:51] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 12:44:51] [INFO] Evidence pipeline: 23 gaps identified.
+[2026-08-24 12:44:54] [INFO] === Run finished in 41.0s | Stories: 10 | Proofs: 74 | Failures: 0 ===
+[2026-08-24 12:44:56] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories_TEST.xlsx
+[2026-08-24 12:44:56] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-24 12:44:56] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-24 12:47:36] [INFO] === Run started | Mode: Test (10 stories) ===
+[2026-08-24 12:47:37] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-24 12:47:37] [INFO] robots.txt loaded successfully.
+[2026-08-24 12:47:37] [INFO] Discovering story URLs…
+[2026-08-24 12:47:40] [INFO] Cache hit: https://www.ibm.com/case-studies
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 12:47:40] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 12:47:40] [INFO] Listing page https://www.ibm.com/case-studies: 10 new URLs found (total: 10)
+[2026-08-24 12:47:40] [INFO] Total story URLs discovered: 10
+[2026-08-24 12:47:42] [INFO] Cache hit: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 12:47:42] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 12:47:44] [INFO] Cache hit: https://www.ibm.com/case-studies/unipol
+[2026-08-24 12:47:44] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 4 proof point(s)
+[2026-08-24 12:47:45] [INFO] Cache hit: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 12:47:45] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 14 proof point(s)
+[2026-08-24 12:47:47] [INFO] Cache hit: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 12:47:47] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 12:47:50] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 12:47:50] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 6 proof point(s)
+[2026-08-24 12:47:52] [INFO] Cache hit: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 12:47:52] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 12:47:53] [INFO] Cache hit: https://www.ibm.com/case-studies/sixt
+[2026-08-24 12:47:54] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 12:47:55] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 12:47:55] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 5 proof point(s)
+[2026-08-24 12:47:56] [INFO] Cache hit: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 12:47:56] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 7 proof point(s)
+[2026-08-24 12:47:58] [INFO] Cache hit: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 12:47:58] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 13 proof point(s)
+[2026-08-24 12:47:58] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:47:58] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context; Data integration and modernization
+[2026-08-24 12:47:58] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:47:58] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:47:59] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:47:59] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:47:59] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:47:59] [INFO] Classified S0008: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-24 12:47:59] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:47:59] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:47:59] [INFO] Evidence pipeline: 23 gaps identified.
+[2026-08-24 12:47:59] [INFO] === Run finished in 23.2s | Stories: 10 | Proofs: 74 | Failures: 0 ===
+[2026-08-24 12:48:00] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories_TEST.xlsx
+[2026-08-24 12:48:00] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-24 12:48:00] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-24 12:51:57] [INFO] === Run started | Mode: Full ===
+[2026-08-24 12:51:57] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-24 12:51:58] [INFO] robots.txt loaded successfully.
+[2026-08-24 12:51:58] [INFO] Discovering story URLs…
+[2026-08-24 12:51:58] [INFO] Cache hit: https://www.ibm.com/case-studies
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/water-corporation
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/masters
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/us-open
+[2026-08-24 12:51:58] [INFO] Found story URL: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/velotix
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/american-airlines
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/ufc
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/moderna
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/humana
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/pfizer
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/kate-barton
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/camping-world
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/anz
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-24 12:51:59] [INFO] Found story URL: https://www.ibm.com/case-studies/agentlocator
+[2026-08-24 12:51:59] [INFO] Listing page https://www.ibm.com/case-studies: 33 new URLs found (total: 33)
+[2026-08-24 12:51:59] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies?page=2
+[2026-08-24 12:52:00] [INFO] Cached: https://www.ibm.com/case-studies?page=2  →  ibm_com_case-studies_page_2_1c045fbe.html
+[2026-08-24 12:52:00] [INFO] Listing page https://www.ibm.com/case-studies?page=2: 0 new URLs found (total: 33)
+[2026-08-24 12:52:00] [INFO] No new URLs on this page — stopping pagination.
+[2026-08-24 12:52:00] [INFO] Total story URLs discovered: 33
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 12:52:01] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/unipol
+[2026-08-24 12:52:01] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 4 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 12:52:01] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 14 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 12:52:01] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 12:52:01] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 6 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 12:52:01] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/sixt
+[2026-08-24 12:52:01] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 12:52:01] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 5 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 12:52:01] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 7 proof point(s)
+[2026-08-24 12:52:01] [INFO] Cache hit: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 12:52:01] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 13 proof point(s)
+[2026-08-24 12:52:01] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-24 12:52:05] [INFO] Cached: https://www.ibm.com/case-studies/boots-uk-ibm-consulting  →  ibm_com_case-studies_boots-uk-ibm-consulting_fb74a4b6.html
+[2026-08-24 12:52:05] [INFO] Parsed S0011: Retailer leans into Digital Commerce and continues 173 years of innovation | Healthcare & Life Sciences | North America | 8 proof point(s)
+[2026-08-24 12:52:05] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-24 12:52:08] [INFO] Cached: https://www.ibm.com/case-studies/avid-solutions-international  →  ibm_com_case-studies_avid-solutions-international_0b41838c.html
+[2026-08-24 12:52:09] [INFO] Parsed S0012: Using IBM watsonx Orchestrate to improve employee and customer happiness | Transportation & Logistics | North America | 4 proof point(s)
+[2026-08-24 12:52:09] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/water-corporation
+[2026-08-24 12:52:12] [INFO] Cached: https://www.ibm.com/case-studies/water-corporation  →  ibm_com_case-studies_water-corporation_bdadd8bc.html
+[2026-08-24 12:52:12] [INFO] Parsed S0013: Keep the data flowing. Keep the water flowing. | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 12:52:12] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-24 12:52:15] [INFO] Cached: https://www.ibm.com/case-studies/cio-office-turbonomic  →  ibm_com_case-studies_cio-office-turbonomic_875b5767.html
+[2026-08-24 12:52:15] [INFO] Parsed S0014: Accelerating application modernization within IBM | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 12:52:15] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-24 12:52:17] [INFO] Cached: https://www.ibm.com/case-studies/state-bank-of-india  →  ibm_com_case-studies_state-bank-of-india_b67a4982.html
+[2026-08-24 12:52:17] [INFO] Parsed S0015: The rise of a financial tiger | Financial Services | North America | 4 proof point(s)
+[2026-08-24 12:52:17] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/masters
+[2026-08-24 12:52:21] [INFO] Cached: https://www.ibm.com/case-studies/masters  →  ibm_com_case-studies_masters_67b0e1d1.html
+[2026-08-24 12:52:21] [INFO] Parsed S0016: The Masters is a smarter business | Financial Services | North America | 9 proof point(s)
+[2026-08-24 12:52:21] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/us-open
+[2026-08-24 12:52:23] [INFO] Cached: https://www.ibm.com/case-studies/us-open  →  ibm_com_case-studies_us-open_f7558d28.html
+[2026-08-24 12:52:23] [INFO] Parsed S0017: The US Open is asmarter business | Financial Services | North America | 4 proof point(s)
+[2026-08-24 12:52:23] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/riyadh-air
+[2026-08-24 12:52:25] [INFO] Cached: https://www.ibm.com/case-studies/riyadh-air  →  ibm_com_case-studies_riyadh-air_010133fa.html
+[2026-08-24 12:52:25] [INFO] Parsed S0018: Unnamed | Transportation & Logistics | North America | 11 proof point(s)
+[2026-08-24 12:52:25] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/velotix
+[2026-08-24 12:52:29] [INFO] Cached: https://www.ibm.com/case-studies/velotix  →  ibm_com_case-studies_velotix_56ac295f.html
+[2026-08-24 12:52:29] [INFO] Parsed S0019: Revolutionizing data access and security with AI | Healthcare & Life Sciences | North America | 7 proof point(s)
+[2026-08-24 12:52:29] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/american-airlines
+[2026-08-24 12:52:32] [INFO] Cached: https://www.ibm.com/case-studies/american-airlines  →  ibm_com_case-studies_american-airlines_3239c969.html
+[2026-08-24 12:52:32] [INFO] Parsed S0020: The route to customer experience transformation is through the cloud | Transportation & Logistics | North America | 15 proof point(s)
+[2026-08-24 12:52:32] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/ufc
+[2026-08-24 12:52:34] [INFO] Cached: https://www.ibm.com/case-studies/ufc  →  ibm_com_case-studies_ufc_548af8ad.html
+[2026-08-24 12:52:34] [INFO] Parsed S0021: Boosting fan engagement with AI-powered insights | Media & Entertainment | North America | 8 proof point(s)
+[2026-08-24 12:52:34] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/moderna
+[2026-08-24 12:52:37] [INFO] Cached: https://www.ibm.com/case-studies/moderna  →  ibm_com_case-studies_moderna_5f769299.html
+[2026-08-24 12:52:38] [INFO] Parsed S0022: Advancing the science of life-saving medications | Healthcare & Life Sciences | North America | 13 proof point(s)
+[2026-08-24 12:52:38] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/bbc-studios
+[2026-08-24 12:52:41] [INFO] Cached: https://www.ibm.com/case-studies/bbc-studios  →  ibm_com_case-studies_bbc-studios_c5735d9b.html
+[2026-08-24 12:52:41] [INFO] Parsed S0023: Major broadcaster reduces resource contention and improves performance | Transportation & Logistics | North America | 8 proof point(s)
+[2026-08-24 12:52:41] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/humana
+[2026-08-24 12:52:44] [INFO] Cached: https://www.ibm.com/case-studies/humana  →  ibm_com_case-studies_humana_45451503.html
+[2026-08-24 12:52:44] [INFO] Parsed S0024: Expertise on call | Healthcare & Life Sciences | North America | 6 proof point(s)
+[2026-08-24 12:52:44] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/pfizer
+[2026-08-24 12:52:46] [INFO] Cached: https://www.ibm.com/case-studies/pfizer  →  ibm_com_case-studies_pfizer_b109df15.html
+[2026-08-24 12:52:46] [INFO] Parsed S0025: Pfizer creates a healthier tomorrow with IBM Power | Healthcare & Life Sciences | North America | 23 proof point(s)
+[2026-08-24 12:52:46] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/kate-barton
+[2026-08-24 12:52:50] [INFO] Cached: https://www.ibm.com/case-studies/kate-barton  →  ibm_com_case-studies_kate-barton_d4d233d0.html
+[2026-08-24 12:52:50] [INFO] Parsed S0026: What happens after the applause | Retail & Consumer Goods | North America | 6 proof point(s)
+[2026-08-24 12:52:50] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/camping-world
+[2026-08-24 12:52:52] [INFO] Cached: https://www.ibm.com/case-studies/camping-world  →  ibm_com_case-studies_camping-world_21dc6ee0.html
+[2026-08-24 12:52:52] [INFO] Parsed S0027: Driving a reimagined customer experience with an AI-powered virtual assistant | Financial Services | North America | 10 proof point(s)
+[2026-08-24 12:52:52] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-24 12:52:55] [INFO] Cached: https://www.ibm.com/case-studies/uhcw-nhs-trust  →  ibm_com_case-studies_uhcw-nhs-trust_94acbdad.html
+[2026-08-24 12:52:55] [INFO] Parsed S0028: Patient-centered care from AI-centered efficiencies | Healthcare & Life Sciences | North America | 13 proof point(s)
+[2026-08-24 12:52:55] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-24 12:52:58] [INFO] Cached: https://www.ibm.com/case-studies/ibm-marketing  →  ibm_com_case-studies_ibm-marketing_f49cbf7c.html
+[2026-08-24 12:52:58] [INFO] Parsed S0029: Transforming marketing to deliver personalized client experiences | Retail & Consumer Goods | North America | 14 proof point(s)
+[2026-08-24 12:52:58] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/anz
+[2026-08-24 12:53:01] [INFO] Cached: https://www.ibm.com/case-studies/anz  →  ibm_com_case-studies_anz_f7f0d9d7.html
+[2026-08-24 12:53:01] [INFO] Parsed S0030: Modernizing DevOps for core banking systems | Financial Services | North America | 13 proof point(s)
+[2026-08-24 12:53:01] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-24 12:53:04] [INFO] Cached: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix  →  ibm_com_case-studies_all-england-lawn-tennis-club-ibm-ix_d0c3dfcd.html
+[2026-08-24 12:53:04] [INFO] Parsed S0031: Serving Innovation: How IBM and Wimbledon Are Transforming a Global Icon | Media & Entertainment | North America | 6 proof point(s)
+[2026-08-24 12:53:04] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-24 12:53:08] [INFO] Cached: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud  →  ibm_com_case-studies_etihad-airways-ibm-cloud_526c4332.html
+[2026-08-24 12:53:08] [INFO] Parsed S0032: Delivering a premium travel experience | Transportation & Logistics | North America | 13 proof point(s)
+[2026-08-24 12:53:08] [INFO] Fetching (attempt 1/3): https://www.ibm.com/case-studies/agentlocator
+[2026-08-24 12:53:11] [INFO] Cached: https://www.ibm.com/case-studies/agentlocator  →  ibm_com_case-studies_agentlocator_1c58612a.html
+[2026-08-24 12:53:11] [INFO] Parsed S0033: Accelerating SaaS delivery with cloud infrastructure | Transportation & Logistics | North America | 13 proof point(s)
+[2026-08-24 12:53:12] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0008: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-24 12:53:12] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0011: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0012: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0013: strength=Strong | OGH=Needs review | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0014: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Real-time data and context; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0015: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0016: strength=Strong | OGH=Needs review | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0017: strength=Medium | OGH=Hybrid | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0018: strength=Weak | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0019: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0020: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0021: strength=Strong | OGH=Hybrid | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0022: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0023: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0024: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0025: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0026: strength=Medium | OGH=Governed | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0027: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-24 12:53:12] [INFO] Classified S0028: strength=Strong | OGH=Needs review | GTM=Governed data for AI; Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0029: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0030: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 12:53:12] [INFO] Classified S0031: strength=Strong | OGH=Governed | GTM=Needs review
+[2026-08-24 12:53:12] [INFO] Classified S0032: strength=Strong | OGH=Hybrid | GTM=Governed data for AI; Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Classified S0033: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 12:53:12] [INFO] Evidence pipeline: 21 gaps identified.
+[2026-08-24 12:53:13] [INFO] === Run finished in 76.4s | Stories: 33 | Proofs: 295 | Failures: 0 ===
+[2026-08-24 12:53:14] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories.xlsx
+[2026-08-24 12:53:14] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-24 12:53:14] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-24 13:07:46] [INFO] === Run started | Mode: Test (10 stories) ===
+[2026-08-24 13:07:49] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-24 13:07:50] [INFO] robots.txt loaded successfully.
+[2026-08-24 13:07:50] [INFO] Discovering story URLs…
+[2026-08-24 13:07:51] [INFO] Cache hit: https://www.ibm.com/case-studies
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 13:07:52] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 13:07:52] [INFO] Listing page https://www.ibm.com/case-studies: 10 new URLs found (total: 10)
+[2026-08-24 13:07:52] [INFO] Total story URLs discovered: 10
+[2026-08-24 13:07:52] [INFO] Cache hit: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 13:07:52] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 13:07:53] [INFO] Cache hit: https://www.ibm.com/case-studies/unipol
+[2026-08-24 13:07:54] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 4 proof point(s)
+[2026-08-24 13:07:55] [INFO] Cache hit: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 13:07:55] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 14 proof point(s)
+[2026-08-24 13:07:57] [INFO] Cache hit: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 13:07:57] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 13:07:58] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 13:07:58] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 6 proof point(s)
+[2026-08-24 13:07:59] [INFO] Cache hit: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 13:07:59] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 13:08:01] [INFO] Cache hit: https://www.ibm.com/case-studies/sixt
+[2026-08-24 13:08:01] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 13:08:03] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 13:08:03] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 5 proof point(s)
+[2026-08-24 13:08:04] [INFO] Cache hit: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 13:08:05] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 7 proof point(s)
+[2026-08-24 13:08:07] [INFO] Cache hit: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 13:08:07] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 13 proof point(s)
+[2026-08-24 13:08:07] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:08:07] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:08:07] [INFO] Classified S0008: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-24 13:08:07] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-24 13:08:07] [INFO] Evidence pipeline: 23 gaps identified.
+[2026-08-24 13:08:12] [INFO] === Run finished in 25.6s | Stories: 10 | Proofs: 74 | Failures: 0 ===
+[2026-08-24 13:08:13] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories_TEST.xlsx
+[2026-08-24 13:08:13] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-24 13:08:13] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-24 13:10:38] [INFO] === Run started | Mode: Full ===
+[2026-08-24 13:10:39] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-24 13:10:40] [INFO] robots.txt loaded successfully.
+[2026-08-24 13:10:40] [INFO] Discovering story URLs…
+[2026-08-24 13:10:40] [INFO] Cache hit: https://www.ibm.com/case-studies
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/water-corporation
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/masters
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/us-open
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/velotix
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/american-airlines
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ufc
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/moderna
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/humana
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/pfizer
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/kate-barton
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/camping-world
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/anz
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-24 13:10:40] [INFO] Found story URL: https://www.ibm.com/case-studies/agentlocator
+[2026-08-24 13:10:40] [INFO] Listing page https://www.ibm.com/case-studies: 33 new URLs found (total: 33)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies?page=2
+[2026-08-24 13:10:42] [INFO] Listing page https://www.ibm.com/case-studies?page=2: 0 new URLs found (total: 33)
+[2026-08-24 13:10:42] [INFO] No new URLs on this page — stopping pagination.
+[2026-08-24 13:10:42] [INFO] Total story URLs discovered: 33
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-24 13:10:42] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/unipol
+[2026-08-24 13:10:42] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 4 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-24 13:10:42] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 14 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-24 13:10:42] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-24 13:10:42] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 6 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-24 13:10:42] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 6 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/sixt
+[2026-08-24 13:10:42] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-24 13:10:42] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 5 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/dynamiq
+[2026-08-24 13:10:42] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 7 proof point(s)
+[2026-08-24 13:10:42] [INFO] Cache hit: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-24 13:10:42] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 13 proof point(s)
+[2026-08-24 13:10:43] [INFO] Cache hit: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-24 13:10:43] [INFO] Parsed S0011: Retailer leans into Digital Commerce and continues 173 years of innovation | Healthcare & Life Sciences | North America | 8 proof point(s)
+[2026-08-24 13:10:44] [INFO] Cache hit: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-24 13:10:44] [INFO] Parsed S0012: Using IBM watsonx Orchestrate to improve employee and customer happiness | Transportation & Logistics | North America | 4 proof point(s)
+[2026-08-24 13:10:45] [INFO] Cache hit: https://www.ibm.com/case-studies/water-corporation
+[2026-08-24 13:10:46] [INFO] Parsed S0013: Keep the data flowing. Keep the water flowing. | Energy & Utilities | North America | 6 proof point(s)
+[2026-08-24 13:10:47] [INFO] Cache hit: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-24 13:10:47] [INFO] Parsed S0014: Accelerating application modernization within IBM | Transportation & Logistics | North America | 7 proof point(s)
+[2026-08-24 13:10:48] [INFO] Cache hit: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-24 13:10:48] [INFO] Parsed S0015: The rise of a financial tiger | Financial Services | North America | 4 proof point(s)
+[2026-08-24 13:10:49] [INFO] Cache hit: https://www.ibm.com/case-studies/masters
+[2026-08-24 13:10:50] [INFO] Parsed S0016: The Masters is a smarter business | Financial Services | North America | 9 proof point(s)
+[2026-08-24 13:10:51] [INFO] Cache hit: https://www.ibm.com/case-studies/us-open
+[2026-08-24 13:10:51] [INFO] Parsed S0017: The US Open is asmarter business | Financial Services | North America | 4 proof point(s)
+[2026-08-24 13:10:53] [INFO] Cache hit: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-24 13:10:53] [INFO] Parsed S0018: Unnamed | Transportation & Logistics | North America | 11 proof point(s)
+[2026-08-24 13:10:53] [INFO] Cache hit: https://www.ibm.com/case-studies/velotix
+[2026-08-24 13:10:53] [INFO] Parsed S0019: Revolutionizing data access and security with AI | Healthcare & Life Sciences | North America | 7 proof point(s)
+[2026-08-24 13:10:54] [INFO] Cache hit: https://www.ibm.com/case-studies/american-airlines
+[2026-08-24 13:10:54] [INFO] Parsed S0020: The route to customer experience transformation is through the cloud | Transportation & Logistics | North America | 15 proof point(s)
+[2026-08-24 13:10:55] [INFO] Cache hit: https://www.ibm.com/case-studies/ufc
+[2026-08-24 13:10:56] [INFO] Parsed S0021: Boosting fan engagement with AI-powered insights | Media & Entertainment | North America | 8 proof point(s)
+[2026-08-24 13:10:57] [INFO] Cache hit: https://www.ibm.com/case-studies/moderna
+[2026-08-24 13:10:57] [INFO] Parsed S0022: Advancing the science of life-saving medications | Healthcare & Life Sciences | North America | 13 proof point(s)
+[2026-08-24 13:10:57] [INFO] Cache hit: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-24 13:10:57] [INFO] Parsed S0023: Major broadcaster reduces resource contention and improves performance | Transportation & Logistics | North America | 8 proof point(s)
+[2026-08-24 13:10:58] [INFO] Cache hit: https://www.ibm.com/case-studies/humana
+[2026-08-24 13:10:58] [INFO] Parsed S0024: Expertise on call | Healthcare & Life Sciences | North America | 6 proof point(s)
+[2026-08-24 13:11:01] [INFO] Cache hit: https://www.ibm.com/case-studies/pfizer
+[2026-08-24 13:11:01] [INFO] Parsed S0025: Pfizer creates a healthier tomorrow with IBM Power | Healthcare & Life Sciences | North America | 23 proof point(s)
+[2026-08-24 13:11:02] [INFO] Cache hit: https://www.ibm.com/case-studies/kate-barton
+[2026-08-24 13:11:02] [INFO] Parsed S0026: What happens after the applause | Retail & Consumer Goods | North America | 6 proof point(s)
+[2026-08-24 13:11:02] [INFO] Cache hit: https://www.ibm.com/case-studies/camping-world
+[2026-08-24 13:11:02] [INFO] Parsed S0027: Driving a reimagined customer experience with an AI-powered virtual assistant | Financial Services | North America | 10 proof point(s)
+[2026-08-24 13:11:03] [INFO] Cache hit: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-24 13:11:04] [INFO] Parsed S0028: Patient-centered care from AI-centered efficiencies | Healthcare & Life Sciences | North America | 13 proof point(s)
+[2026-08-24 13:11:04] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-24 13:11:04] [INFO] Parsed S0029: Transforming marketing to deliver personalized client experiences | Retail & Consumer Goods | North America | 14 proof point(s)
+[2026-08-24 13:11:05] [INFO] Cache hit: https://www.ibm.com/case-studies/anz
+[2026-08-24 13:11:05] [INFO] Parsed S0030: Modernizing DevOps for core banking systems | Financial Services | North America | 13 proof point(s)
+[2026-08-24 13:11:06] [INFO] Cache hit: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-24 13:11:06] [INFO] Parsed S0031: Serving Innovation: How IBM and Wimbledon Are Transforming a Global Icon | Media & Entertainment | North America | 6 proof point(s)
+[2026-08-24 13:11:07] [INFO] Cache hit: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-24 13:11:08] [INFO] Parsed S0032: Delivering a premium travel experience | Transportation & Logistics | North America | 13 proof point(s)
+[2026-08-24 13:11:08] [INFO] Cache hit: https://www.ibm.com/case-studies/agentlocator
+[2026-08-24 13:11:08] [INFO] Parsed S0033: Accelerating SaaS delivery with cloud infrastructure | Transportation & Logistics | North America | 13 proof point(s)
+[2026-08-24 13:11:08] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Governed data for AI; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Real-time data and context; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Governed data for AI; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0008: strength=Medium | OGH=Governed | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Governed data for AI; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Governed data for AI; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0011: strength=Medium | OGH=Needs review | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0012: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0013: strength=Strong | OGH=Needs review | GTM=Governed data for AI; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0014: strength=Medium | OGH=Needs review | GTM=Real-time data and context; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0015: strength=Medium | OGH=Needs review | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0016: strength=Strong | OGH=Needs review | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0017: strength=Medium | OGH=Hybrid | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0018: strength=Weak | OGH=Governed | GTM=Real-time data and context; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0019: strength=Strong | OGH=Governed | GTM=Governed data for AI; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0020: strength=Medium | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0021: strength=Strong | OGH=Hybrid | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0022: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0023: strength=Strong | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0024: strength=Medium | OGH=Needs review | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0025: strength=Strong | OGH=Needs review | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0026: strength=Medium | OGH=Governed | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0027: strength=Medium | OGH=Needs review | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0028: strength=Strong | OGH=Needs review | GTM=Governed data for AI; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0029: strength=Strong | OGH=Governed | GTM=Governed data for AI; Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0030: strength=Strong | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0031: strength=Strong | OGH=Governed | GTM=Needs review
+[2026-08-24 13:11:08] [INFO] Classified S0032: strength=Strong | OGH=Hybrid | GTM=Governed data for AI; Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Classified S0033: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-24 13:11:08] [INFO] Evidence pipeline: 21 gaps identified.
+[2026-08-24 13:11:10] [INFO] === Run finished in 31.7s | Stories: 33 | Proofs: 295 | Failures: 0 ===
+[2026-08-24 13:11:12] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories.xlsx
+[2026-08-24 13:11:12] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-24 13:11:12] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 13:23:22] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 13:31:58] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 13:35:47] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 14:00:04] [INFO] === Run started | Mode: Full ===
+[2026-08-25 14:00:04] [INFO] No Tavily API key configured. Tip: run 1_SETUP.bat and enter your free key to find more stories.
+[2026-08-25 14:00:04] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-25 14:00:05] [INFO] robots.txt loaded successfully.
+[2026-08-25 14:00:05] [INFO] Requests-based discovery (fallback — no Tavily key configured)…
+[2026-08-25 14:00:06] [INFO] Cache hit: https://www.ibm.com/case-studies
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/water-corporation
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/masters
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/us-open
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/velotix
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/american-airlines
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/ufc
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/moderna
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/humana
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/pfizer
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/kate-barton
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/camping-world
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/anz
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-25 14:00:06] [INFO] Found story URL: https://www.ibm.com/case-studies/agentlocator
+[2026-08-25 14:00:06] [INFO] Listing page https://www.ibm.com/case-studies: 33 new URLs (total: 33)
+[2026-08-25 14:00:07] [INFO] Cache hit: https://www.ibm.com/case-studies?page=2
+[2026-08-25 14:00:07] [INFO] Listing page https://www.ibm.com/case-studies?page=2: 0 new URLs (total: 33)
+[2026-08-25 14:00:07] [INFO] No new URLs on this page — stopping pagination.
+[2026-08-25 14:00:07] [INFO] Total story URLs discovered: 33
+[2026-08-25 14:00:08] [INFO] Cache hit: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-25 14:00:08] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 1 proof point(s)
+[2026-08-25 14:00:09] [INFO] Cache hit: https://www.ibm.com/case-studies/unipol
+[2026-08-25 14:00:09] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:10] [INFO] Cache hit: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-25 14:00:10] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:11] [INFO] Cache hit: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-25 14:00:11] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 1 proof point(s)
+[2026-08-25 14:00:12] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-25 14:00:12] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:13] [INFO] Cache hit: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-25 14:00:13] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 1 proof point(s)
+[2026-08-25 14:00:14] [INFO] Cache hit: https://www.ibm.com/case-studies/sixt
+[2026-08-25 14:00:14] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:14] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-25 14:00:14] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:15] [INFO] Cache hit: https://www.ibm.com/case-studies/dynamiq
+[2026-08-25 14:00:15] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 1 proof point(s)
+[2026-08-25 14:00:16] [INFO] Cache hit: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-25 14:00:16] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 1 proof point(s)
+[2026-08-25 14:00:17] [INFO] Cache hit: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-25 14:00:17] [INFO] Parsed S0011: Retailer leans into Digital Commerce and continues 173 years of innovation | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:00:17] [INFO] Cache hit: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-25 14:00:17] [INFO] Parsed S0012: Using IBM watsonx Orchestrate to improve employee and customer happiness | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:18] [INFO] Cache hit: https://www.ibm.com/case-studies/water-corporation
+[2026-08-25 14:00:18] [INFO] Parsed S0013: Keep the data flowing. Keep the water flowing. | Energy & Utilities | North America | 1 proof point(s)
+[2026-08-25 14:00:19] [INFO] Cache hit: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-25 14:00:19] [INFO] Parsed S0014: Accelerating application modernization within IBM | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:19] [INFO] Cache hit: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-25 14:00:19] [INFO] Parsed S0015: The rise of a financial tiger | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:20] [INFO] Cache hit: https://www.ibm.com/case-studies/masters
+[2026-08-25 14:00:20] [INFO] Parsed S0016: The Masters is a smarter business | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:22] [INFO] Cache hit: https://www.ibm.com/case-studies/us-open
+[2026-08-25 14:00:22] [INFO] Parsed S0017: The US Open is asmarter business | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:23] [INFO] Cache hit: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-25 14:00:23] [INFO] Parsed S0018: Unnamed | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:24] [INFO] Cache hit: https://www.ibm.com/case-studies/velotix
+[2026-08-25 14:00:24] [INFO] Parsed S0019: Revolutionizing data access and security with AI | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:00:25] [INFO] Cache hit: https://www.ibm.com/case-studies/american-airlines
+[2026-08-25 14:00:25] [INFO] Parsed S0020: The route to customer experience transformation is through the cloud | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:25] [INFO] Cache hit: https://www.ibm.com/case-studies/ufc
+[2026-08-25 14:00:25] [INFO] Parsed S0021: Boosting fan engagement with AI-powered insights | Media & Entertainment | North America | 1 proof point(s)
+[2026-08-25 14:00:26] [INFO] Cache hit: https://www.ibm.com/case-studies/moderna
+[2026-08-25 14:00:26] [INFO] Parsed S0022: Advancing the science of life-saving medications | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:00:27] [INFO] Cache hit: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-25 14:00:27] [INFO] Parsed S0023: Major broadcaster reduces resource contention and improves performance | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:27] [INFO] Cache hit: https://www.ibm.com/case-studies/humana
+[2026-08-25 14:00:27] [INFO] Parsed S0024: Expertise on call | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:00:29] [INFO] Cache hit: https://www.ibm.com/case-studies/pfizer
+[2026-08-25 14:00:29] [INFO] Parsed S0025: Pfizer creates a healthier tomorrow with IBM Power | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:00:31] [INFO] Cache hit: https://www.ibm.com/case-studies/kate-barton
+[2026-08-25 14:00:31] [INFO] Parsed S0026: What happens after the applause | Retail & Consumer Goods | North America | 1 proof point(s)
+[2026-08-25 14:00:31] [INFO] Cache hit: https://www.ibm.com/case-studies/camping-world
+[2026-08-25 14:00:31] [INFO] Parsed S0027: Driving a reimagined customer experience with an AI-powered virtual assistant | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:32] [INFO] Cache hit: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-25 14:00:32] [INFO] Parsed S0028: Patient-centered care from AI-centered efficiencies | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:00:33] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-25 14:00:33] [INFO] Parsed S0029: Transforming marketing to deliver personalized client experiences | Retail & Consumer Goods | North America | 1 proof point(s)
+[2026-08-25 14:00:34] [INFO] Cache hit: https://www.ibm.com/case-studies/anz
+[2026-08-25 14:00:34] [INFO] Parsed S0030: Modernizing DevOps for core banking systems | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:00:35] [INFO] Cache hit: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-25 14:00:35] [INFO] Parsed S0031: Serving Innovation: How IBM and Wimbledon Are Transforming a Global Icon | Media & Entertainment | North America | 1 proof point(s)
+[2026-08-25 14:00:35] [INFO] Cache hit: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-25 14:00:35] [INFO] Parsed S0032: Delivering a premium travel experience | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:36] [INFO] Cache hit: https://www.ibm.com/case-studies/agentlocator
+[2026-08-25 14:00:36] [INFO] Parsed S0033: Accelerating SaaS delivery with cloud infrastructure | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:00:36] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization; Real-time data and context
+[2026-08-25 14:00:36] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Governed data for AI
+[2026-08-25 14:00:36] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0008: strength=Restricted | OGH=Governed | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-25 14:00:36] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0011: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0012: strength=Restricted | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0013: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0014: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization; Real-time data and context
+[2026-08-25 14:00:36] [INFO] Classified S0015: strength=Medium | OGH=Needs review | GTM=Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0016: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0017: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0018: strength=Weak | OGH=Governed | GTM=Data integration and modernization; Real-time data and context
+[2026-08-25 14:00:36] [INFO] Classified S0019: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI
+[2026-08-25 14:00:36] [INFO] Classified S0020: strength=Restricted | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0021: strength=Strong | OGH=Hybrid | GTM=Cost and workload optimization
+[2026-08-25 14:00:36] [INFO] Classified S0022: strength=Restricted | OGH=Needs review | GTM=Needs review
+[2026-08-25 14:00:36] [INFO] Classified S0023: strength=Medium | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0024: strength=Medium | OGH=Needs review | GTM=Data integration and modernization
+[2026-08-25 14:00:36] [INFO] Classified S0025: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-25 14:00:37] [INFO] Classified S0026: strength=Medium | OGH=Governed | GTM=Needs review
+[2026-08-25 14:00:37] [INFO] Classified S0027: strength=Restricted | OGH=Needs review | GTM=Cost and workload optimization; Real-time data and context
+[2026-08-25 14:00:37] [INFO] Classified S0028: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization; Governed data for AI
+[2026-08-25 14:00:37] [INFO] Classified S0029: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI; Data integration and modernization
+[2026-08-25 14:00:37] [INFO] Classified S0030: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Data integration and modernization
+[2026-08-25 14:00:37] [INFO] Classified S0031: strength=Strong | OGH=Governed | GTM=Needs review
+[2026-08-25 14:00:37] [INFO] Classified S0032: strength=Strong | OGH=Hybrid | GTM=Needs review
+[2026-08-25 14:00:37] [INFO] Classified S0033: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:00:37] [INFO] Evidence pipeline: 21 gaps identified.
+[2026-08-25 14:00:38] [INFO] === Run finished in 33.8s | Stories: 33 | Proofs: 33 | Failures: 0 ===
+[2026-08-25 14:00:38] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories.xlsx
+[2026-08-25 14:00:38] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-25 14:00:38] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 14:02:00] [INFO] === Run started | Mode: Full ===
+[2026-08-25 14:02:00] [INFO] No Tavily API key configured. Tip: run 1_SETUP.bat and enter your free key to find more stories.
+[2026-08-25 14:02:00] [INFO] Fetching robots.txt from https://www.ibm.com/robots.txt
+[2026-08-25 14:02:00] [INFO] robots.txt loaded successfully.
+[2026-08-25 14:02:00] [INFO] Requests-based discovery (fallback — no Tavily key configured)…
+[2026-08-25 14:02:00] [INFO] Cache hit: https://www.ibm.com/case-studies
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/unipol
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/sixt
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/dynamiq
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/water-corporation
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/masters
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/us-open
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/velotix
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/american-airlines
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/ufc
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/moderna
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/humana
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/pfizer
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/kate-barton
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/camping-world
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/anz
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-25 14:02:00] [INFO] Found story URL: https://www.ibm.com/case-studies/agentlocator
+[2026-08-25 14:02:00] [INFO] Listing page https://www.ibm.com/case-studies: 33 new URLs (total: 33)
+[2026-08-25 14:02:00] [INFO] Cache hit: https://www.ibm.com/case-studies?page=2
+[2026-08-25 14:02:00] [INFO] Listing page https://www.ibm.com/case-studies?page=2: 0 new URLs (total: 33)
+[2026-08-25 14:02:00] [INFO] No new URLs on this page — stopping pagination.
+[2026-08-25 14:02:00] [INFO] Total story URLs discovered: 33
+[2026-08-25 14:02:00] [INFO] Cache hit: https://www.ibm.com/case-studies/blue-pearl-bob
+[2026-08-25 14:02:00] [INFO] Parsed S0001: The new pace of modernization | Energy & Utilities | North America | 1 proof point(s)
+[2026-08-25 14:02:00] [INFO] Cache hit: https://www.ibm.com/case-studies/unipol
+[2026-08-25 14:02:01] [INFO] Parsed S0002: Laying the foundation for optimization and business evolution | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/nationwide-building-society
+[2026-08-25 14:02:01] [INFO] Parsed S0003: Realise the potential of AI with expertise and innovation | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ca-dhcs
+[2026-08-25 14:02:01] [INFO] Parsed S0004: Caring for the public sector people: A success story | Government & Public Sector | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-25 14:02:01] [INFO] Parsed S0005: Productivity with AI and innovation | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/state-of-oregon-ois
+[2026-08-25 14:02:01] [INFO] Parsed S0006: Improving payment systems to support vulnerable populations | Government & Public Sector | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/sixt
+[2026-08-25 14:02:01] [INFO] Parsed S0007: Unnamed | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-askhr
+[2026-08-25 14:02:01] [INFO] Parsed S0008: Transforming HR support with agentic AI | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/dynamiq
+[2026-08-25 14:02:01] [INFO] Parsed S0009: Legal overhead turned into strategic insight | Other | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/lockheed-martin
+[2026-08-25 14:02:01] [INFO] Parsed S0010: A new era of AI takes off for Lockheed Martin | Manufacturing | Other / Global | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/boots-uk-ibm-consulting
+[2026-08-25 14:02:01] [INFO] Parsed S0011: Retailer leans into Digital Commerce and continues 173 years of innovation | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/avid-solutions-international
+[2026-08-25 14:02:01] [INFO] Parsed S0012: Using IBM watsonx Orchestrate to improve employee and customer happiness | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/water-corporation
+[2026-08-25 14:02:01] [INFO] Parsed S0013: Keep the data flowing. Keep the water flowing. | Energy & Utilities | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/cio-office-turbonomic
+[2026-08-25 14:02:01] [INFO] Parsed S0014: Accelerating application modernization within IBM | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/state-bank-of-india
+[2026-08-25 14:02:01] [INFO] Parsed S0015: The rise of a financial tiger | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/masters
+[2026-08-25 14:02:01] [INFO] Parsed S0016: The Masters is a smarter business | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/us-open
+[2026-08-25 14:02:01] [INFO] Parsed S0017: The US Open is asmarter business | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/riyadh-air
+[2026-08-25 14:02:01] [INFO] Parsed S0018: Unnamed | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/velotix
+[2026-08-25 14:02:01] [INFO] Parsed S0019: Revolutionizing data access and security with AI | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/american-airlines
+[2026-08-25 14:02:01] [INFO] Parsed S0020: The route to customer experience transformation is through the cloud | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:01] [INFO] Cache hit: https://www.ibm.com/case-studies/ufc
+[2026-08-25 14:02:02] [INFO] Parsed S0021: Boosting fan engagement with AI-powered insights | Media & Entertainment | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/moderna
+[2026-08-25 14:02:02] [INFO] Parsed S0022: Advancing the science of life-saving medications | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/bbc-studios
+[2026-08-25 14:02:02] [INFO] Parsed S0023: Major broadcaster reduces resource contention and improves performance | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/humana
+[2026-08-25 14:02:02] [INFO] Parsed S0024: Expertise on call | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/pfizer
+[2026-08-25 14:02:02] [INFO] Parsed S0025: Pfizer creates a healthier tomorrow with IBM Power | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/kate-barton
+[2026-08-25 14:02:02] [INFO] Parsed S0026: What happens after the applause | Retail & Consumer Goods | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/camping-world
+[2026-08-25 14:02:02] [INFO] Parsed S0027: Driving a reimagined customer experience with an AI-powered virtual assistant | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/uhcw-nhs-trust
+[2026-08-25 14:02:02] [INFO] Parsed S0028: Patient-centered care from AI-centered efficiencies | Healthcare & Life Sciences | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/ibm-marketing
+[2026-08-25 14:02:02] [INFO] Parsed S0029: Transforming marketing to deliver personalized client experiences | Retail & Consumer Goods | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/anz
+[2026-08-25 14:02:02] [INFO] Parsed S0030: Modernizing DevOps for core banking systems | Financial Services | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix
+[2026-08-25 14:02:02] [INFO] Parsed S0031: Serving Innovation: How IBM and Wimbledon Are Transforming a Global Icon | Media & Entertainment | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/etihad-airways-ibm-cloud
+[2026-08-25 14:02:02] [INFO] Parsed S0032: Delivering a premium travel experience | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Cache hit: https://www.ibm.com/case-studies/agentlocator
+[2026-08-25 14:02:02] [INFO] Parsed S0033: Accelerating SaaS delivery with cloud infrastructure | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-25 14:02:02] [INFO] Classified S0001: strength=Strong | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization; Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0002: strength=Medium | OGH=Governed | GTM=Real-time data and context; Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0003: strength=Medium | OGH=Governed | GTM=Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0004: strength=Medium | OGH=Hybrid | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0005: strength=Medium | OGH=Needs review | GTM=Data integration and modernization
+[2026-08-25 14:02:02] [INFO] Classified S0006: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0007: strength=Weak | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0008: strength=Restricted | OGH=Governed | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0009: strength=Medium | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization; Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0010: strength=Strong | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization; Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0011: strength=Medium | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0012: strength=Restricted | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0013: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0014: strength=Medium | OGH=Needs review | GTM=Real-time data and context; Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0015: strength=Medium | OGH=Needs review | GTM=Data integration and modernization
+[2026-08-25 14:02:02] [INFO] Classified S0016: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0017: strength=Medium | OGH=Hybrid | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0018: strength=Weak | OGH=Governed | GTM=Real-time data and context; Data integration and modernization
+[2026-08-25 14:02:02] [INFO] Classified S0019: strength=Strong | OGH=Governed | GTM=Cost and workload optimization; Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0020: strength=Restricted | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0021: strength=Strong | OGH=Hybrid | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0022: strength=Restricted | OGH=Needs review | GTM=Needs review
+[2026-08-25 14:02:02] [INFO] Classified S0023: strength=Medium | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0024: strength=Medium | OGH=Needs review | GTM=Data integration and modernization
+[2026-08-25 14:02:02] [INFO] Classified S0025: strength=Strong | OGH=Needs review | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0026: strength=Medium | OGH=Governed | GTM=Needs review
+[2026-08-25 14:02:02] [INFO] Classified S0027: strength=Restricted | OGH=Needs review | GTM=Real-time data and context; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0028: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization; Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0029: strength=Strong | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization; Governed data for AI
+[2026-08-25 14:02:02] [INFO] Classified S0030: strength=Strong | OGH=Governed | GTM=Data integration and modernization; Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Classified S0031: strength=Strong | OGH=Governed | GTM=Needs review
+[2026-08-25 14:02:02] [INFO] Classified S0032: strength=Strong | OGH=Hybrid | GTM=Needs review
+[2026-08-25 14:02:02] [INFO] Classified S0033: strength=Strong | OGH=Needs review | GTM=Cost and workload optimization
+[2026-08-25 14:02:02] [INFO] Evidence pipeline: 21 gaps identified.
+[2026-08-25 14:02:03] [INFO] === Run finished in 3.1s | Stories: 33 | Proofs: 33 | Failures: 0 ===
+[2026-08-25 14:02:03] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\IBM_Customer_Stories.xlsx
+[2026-08-25 14:02:03] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\data.json
+[2026-08-25 14:02:03] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 15:25:27] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 15:34:32] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 15:35:02] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-25 16:24:02] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\IBM_Customer_Stories\output\dashboard\index.html
+[2026-08-28 18:49:41] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-28 18:49:55] [INFO] === Run started | Mode: Full ===
+[2026-08-28 18:49:56] [INFO] Tavily API key found — using Tavily for discovery (finds more stories).
+[2026-08-28 18:49:57] [INFO] Tavily discovery: running 15 search queries…
+[2026-08-28 18:49:57] [INFO]   Tavily query 1/15: site:ibm.com/case-studies customer story
+[2026-08-28 18:49:59] [INFO]     Found: https://www.ibm.com/case-studies/blog/enhancing-customer-service-through-innovative-solutions-a-client-success-story
+[2026-08-28 18:49:59] [INFO]     Found: https://www.ibm.com/case-studies/leading-retailer
+[2026-08-28 18:49:59] [INFO]     Found: https://www.ibm.com/case-studies/codeobjects
+[2026-08-28 18:49:59] [INFO]     Found: https://www.ibm.com/case-studies/ibm-salesforce
+[2026-08-28 18:49:59] [INFO]     Found: https://www.ibm.com/case-studies/cxreview-ai
+[2026-08-28 18:49:59] [INFO]     Found: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-28 18:49:59] [INFO]     6 new URLs this query (total: 6)
+[2026-08-28 18:50:00] [INFO]   Tavily query 2/15: site:ibm.com/case-studies AI watsonx
+[2026-08-28 18:50:02] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:02] [INFO]   Tavily query 3/15: site:ibm.com/case-studies data modernization
+[2026-08-28 18:50:04] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:04] [INFO]   Tavily query 4/15: site:ibm.com/case-studies cloud transformation
+[2026-08-28 18:50:07] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:08] [INFO]   Tavily query 5/15: site:ibm.com/case-studies financial services
+[2026-08-28 18:50:10] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:10] [INFO]   Tavily query 6/15: site:ibm.com/case-studies healthcare
+[2026-08-28 18:50:12] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:13] [INFO]   Tavily query 7/15: site:ibm.com/case-studies manufacturing
+[2026-08-28 18:50:15] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:16] [INFO]   Tavily query 8/15: site:ibm.com/case-studies government
+[2026-08-28 18:50:19] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:19] [INFO]   Tavily query 9/15: site:ibm.com/case-studies retail
+[2026-08-28 18:50:20] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:21] [INFO]   Tavily query 10/15: site:ibm.com/case-studies energy utilities
+[2026-08-28 18:50:25] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:25] [INFO]   Tavily query 11/15: site:ibm.com/case-studies IBM Power
+[2026-08-28 18:50:27] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:28] [INFO]   Tavily query 12/15: site:ibm.com/case-studies IBM Z mainframe
+[2026-08-28 18:50:29] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:30] [INFO]   Tavily query 13/15: site:ibm.com/case-studies Red Hat OpenShift
+[2026-08-28 18:50:31] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:32] [INFO]   Tavily query 14/15: site:ibm.com/case-studies IBM Consulting
+[2026-08-28 18:50:34] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:35] [INFO]   Tavily query 15/15: site:ibm.com/case-studies cost optimization
+[2026-08-28 18:50:37] [INFO]     0 new URLs this query (total: 6)
+[2026-08-28 18:50:37] [INFO] Tavily discovery complete: 6 unique story URLs found.
+[2026-08-28 18:50:37] [INFO] Tavily extract: https://www.ibm.com/case-studies/blog/enhancing-customer-service-through-innovative-solutions-a-client-success-story
+[2026-08-28 18:50:40] [INFO] Cached: https://www.ibm.com/case-studies/blog/enhancing-customer-service-through-innovative-solutions-a-client-success-story  →  ibm_com_case-studies_blog_enhancing-customer-service-through-innovative-solution_25be8d4c.html
+[2026-08-28 18:50:40] [INFO] Parsed S0001: Unnamed | Financial Services | EMEA | 1 proof point(s)
+[2026-08-28 18:50:40] [INFO] Tavily extract: https://www.ibm.com/case-studies/leading-retailer
+[2026-08-28 18:50:42] [INFO] Cached: https://www.ibm.com/case-studies/leading-retailer  →  ibm_com_case-studies_leading-retailer_91c846c2.html
+[2026-08-28 18:50:42] [INFO] Parsed S0002: Unnamed | Financial Services | North America | 1 proof point(s)
+[2026-08-28 18:50:42] [INFO] Tavily extract: https://www.ibm.com/case-studies/codeobjects
+[2026-08-28 18:50:44] [INFO] Cached: https://www.ibm.com/case-studies/codeobjects  →  ibm_com_case-studies_codeobjects_3a33d963.html
+[2026-08-28 18:50:44] [INFO] Parsed S0003: Unnamed | Financial Services | North America | 1 proof point(s)
+[2026-08-28 18:50:44] [INFO] Tavily extract: https://www.ibm.com/case-studies/ibm-salesforce
+[2026-08-28 18:50:47] [INFO] Cached: https://www.ibm.com/case-studies/ibm-salesforce  →  ibm_com_case-studies_ibm-salesforce_796fcd8e.html
+[2026-08-28 18:50:47] [INFO] Parsed S0004: Unnamed | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-28 18:50:47] [INFO] Tavily extract: https://www.ibm.com/case-studies/cxreview-ai
+[2026-08-28 18:50:50] [INFO] Cached: https://www.ibm.com/case-studies/cxreview-ai  →  ibm_com_case-studies_cxreview-ai_2dc82ae6.html
+[2026-08-28 18:50:50] [INFO] Parsed S0005: Unnamed | Financial Services | North America | 1 proof point(s)
+[2026-08-28 18:50:50] [INFO] Tavily extract: https://www.ibm.com/case-studies/ibm-client-zero
+[2026-08-28 18:50:52] [INFO] Cached: https://www.ibm.com/case-studies/ibm-client-zero  →  ibm_com_case-studies_ibm-client-zero_6ebe9f5d.html
+[2026-08-28 18:50:52] [INFO] Parsed S0006: Unnamed | Transportation & Logistics | North America | 1 proof point(s)
+[2026-08-28 18:50:52] [INFO] Classified S0001: strength=Weak | OGH=Needs review | GTM=Needs review
+[2026-08-28 18:50:52] [INFO] Classified S0002: strength=Weak | OGH=Needs review | GTM=Build real-time operational intelligence
+[2026-08-28 18:50:52] [INFO] Classified S0003: strength=Weak | OGH=Governed | GTM=Needs review
+[2026-08-28 18:50:52] [INFO] Classified S0004: strength=Restricted | OGH=Needs review | GTM=Needs review
+[2026-08-28 18:50:52] [INFO] Classified S0005: strength=Weak | OGH=Governed | GTM=Needs review
+[2026-08-28 18:50:52] [INFO] Classified S0006: strength=Weak | OGH=Needs review | GTM=Needs review
+[2026-08-28 18:50:52] [INFO] Evidence pipeline: 18 gaps identified.
+[2026-08-28 18:50:53] [INFO] === Run finished in 58.0s | Stories: 6 | Proofs: 6 | Failures: 0 ===
+[2026-08-28 18:50:54] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\IBM_Customer_Stories.xlsx
+[2026-08-28 18:50:54] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\data.json
+[2026-08-28 18:50:54] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-28 18:55:30] [INFO] === Run started | Mode: Full ===
+[2026-08-28 18:55:30] [INFO] Tavily API key found — using Tavily for discovery (finds more stories).
+[2026-08-28 18:55:31] [INFO] Tavily discovery: running 15 search queries…
+[2026-08-28 18:55:31] [INFO]   Tavily query 1/15: site:ibm.com/case-studies customer story
+[2026-08-28 18:55:32] [INFO]     Found: https://www.ibm.com/case-studies/blog/enhancing-customer-service-through-innovative-solutions-a-client-success-story
+[2026-08-28 18:55:32] [INFO]     1 new URLs this query (total: 1)
+[2026-08-28 18:55:33] [INFO]   Tavily query 2/15: site:ibm.com/case-studies AI watsonx
+[2026-08-28 18:55:34] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:35] [INFO]   Tavily query 3/15: site:ibm.com/case-studies data modernization
+[2026-08-28 18:55:38] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:38] [INFO]   Tavily query 4/15: site:ibm.com/case-studies cloud transformation
+[2026-08-28 18:55:39] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:39] [INFO]   Tavily query 5/15: site:ibm.com/case-studies financial services
+[2026-08-28 18:55:41] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:42] [INFO]   Tavily query 6/15: site:ibm.com/case-studies healthcare
+[2026-08-28 18:55:42] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:43] [INFO]   Tavily query 7/15: site:ibm.com/case-studies manufacturing
+[2026-08-28 18:55:46] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:46] [INFO]   Tavily query 8/15: site:ibm.com/case-studies government
+[2026-08-28 18:55:47] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:47] [INFO]   Tavily query 9/15: site:ibm.com/case-studies retail
+[2026-08-28 18:55:49] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:49] [INFO]   Tavily query 10/15: site:ibm.com/case-studies energy utilities
+[2026-08-28 18:55:50] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:50] [INFO]   Tavily query 11/15: site:ibm.com/case-studies IBM Power
+[2026-08-28 18:55:51] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:52] [INFO]   Tavily query 12/15: site:ibm.com/case-studies IBM Z mainframe
+[2026-08-28 18:55:54] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:55] [INFO]   Tavily query 13/15: site:ibm.com/case-studies Red Hat OpenShift
+[2026-08-28 18:55:57] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:55:57] [INFO]   Tavily query 14/15: site:ibm.com/case-studies IBM Consulting
+[2026-08-28 18:55:59] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:56:00] [INFO]   Tavily query 15/15: site:ibm.com/case-studies cost optimization
+[2026-08-28 18:56:00] [INFO]     0 new URLs this query (total: 1)
+[2026-08-28 18:56:00] [INFO] Tavily discovery complete: 1 unique story URLs found.
+[2026-08-28 18:56:00] [INFO] Cache hit: https://www.ibm.com/case-studies/blog/enhancing-customer-service-through-innovative-solutions-a-client-success-story
+[2026-08-28 18:56:00] [INFO] Parsed S0001: Unnamed | Financial Services | EMEA | 1 proof point(s)
+[2026-08-28 18:56:00] [INFO] Classified S0001: strength=Weak | OGH=Needs review | GTM=Needs review
+[2026-08-28 18:56:00] [INFO] Evidence pipeline: 18 gaps identified.
+[2026-08-28 18:56:01] [INFO] === Run finished in 30.9s | Stories: 1 | Proofs: 1 | Failures: 0 ===
+[2026-08-28 18:56:01] [INFO] Excel workbook saved: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\IBM_Customer_Stories.xlsx
+[2026-08-28 18:56:01] [INFO] Dashboard data written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\data.json
+[2026-08-28 18:56:01] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-28 19:07:42] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-28 19:18:54] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 13:27:03] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 13:31:43] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:09:46] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:11:10] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:17:15] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:21:45] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:22:15] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:34:30] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 14:44:28] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-08-31 21:00:54] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-09-01 14:03:37] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html
+[2026-09-01 14:10:28] [INFO] Dashboard HTML written: C:\Users\AnitaRanjan\OneDrive - IBM\Desktop\Customer stories Dashboard\output\dashboard\index.html

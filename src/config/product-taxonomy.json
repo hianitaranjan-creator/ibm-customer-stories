@@ -1,0 +1,459 @@
+{
+  "_schema_version": "2.0",
+  "_comment": "IBM Data Platform Product Taxonomy v2 — rebuilt from approved product list. Products are organised under the three IBM Data Platform GTM motions. Every product entry stores: approvedName (current), historicalNames (past product names), previousBranding (past brand labels), abbreviations (common short forms), and aliases (exact match phrases used by the crawler — case-insensitive). The 'aliases' list is intentionally specific: generic terms like 'AI', 'analytics', 'cloud' or 'data' are NEVER included as aliases. If no alias matches, the story is classified as 'Needs review'.",
+
+  "motions": [
+    "Build real-time operational intelligence",
+    "Accelerate context-intensive AI + analytics",
+    "Engineer data for real-time use"
+  ],
+
+  "products": {
+
+    "watsonx.data": {
+      "approvedName": "watsonx.data",
+      "historicalNames": [
+        "IBM Watson Query",
+        "Watson Data Platform",
+        "Watson Data Store",
+        "IBM Db2 Big SQL"
+      ],
+      "previousBranding": [
+        "Cloud Pak for Data (data lake component)",
+        "IBM Integrated Analytics System"
+      ],
+      "abbreviations": ["wxd"],
+      "motions": [
+        "Build real-time operational intelligence",
+        "Accelerate context-intensive AI + analytics",
+        "Engineer data for real-time use"
+      ],
+      "aliases": [
+        "watsonx.data",
+        "watson x.data",
+        "wxd",
+        "watsonx data lakehouse",
+        "ibm watsonx.data",
+        "watson query"
+      ]
+    },
+
+    "watsonx.data integration": {
+      "approvedName": "watsonx.data integration",
+      "historicalNames": [
+        "DataStage as a Service",
+        "DataStage Ent+",
+        "InfoSphere DataStage (cloud-native edition)"
+      ],
+      "previousBranding": [
+        "IBM DataStage SaaS",
+        "DataStage on Cloud"
+      ],
+      "abbreviations": ["wxdi"],
+      "motions": [
+        "Engineer data for real-time use"
+      ],
+      "aliases": [
+        "watsonx.data integration",
+        "wxdi",
+        "datastage as a service",
+        "datastage aaas",
+        "datastage saas",
+        "datastage on cloud",
+        "ibm watsonx.data integration"
+      ]
+    },
+
+    "watsonx.data intelligence": {
+      "approvedName": "watsonx.data intelligence",
+      "historicalNames": [
+        "IBM Knowledge Catalog (SaaS component)",
+        "Watson Knowledge Catalog"
+      ],
+      "previousBranding": [
+        "Watson Knowledge Catalog",
+        "Cloud Pak for Data (catalog component)"
+      ],
+      "abbreviations": ["wxdg", "wkc"],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "watsonx.data intelligence",
+        "wxdg",
+        "ibm watsonx.data intelligence"
+      ]
+    },
+
+    "OpenRAG": {
+      "approvedName": "OpenRAG",
+      "historicalNames": [],
+      "previousBranding": [],
+      "abbreviations": [],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "openrag",
+        "open rag",
+        "ibm openrag"
+      ]
+    },
+
+    "Confluent": {
+      "approvedName": "Confluent",
+      "historicalNames": [
+        "Confluent Platform",
+        "Confluent Cloud"
+      ],
+      "previousBranding": [],
+      "abbreviations": [],
+      "motions": [
+        "Build real-time operational intelligence"
+      ],
+      "aliases": [
+        "confluent",
+        "confluent platform",
+        "confluent cloud",
+        "confluent kafka",
+        "confluent streaming"
+      ]
+    },
+
+    "DataStage": {
+      "approvedName": "DataStage",
+      "historicalNames": [
+        "InfoSphere DataStage",
+        "WebSphere DataStage",
+        "Ascential DataStage"
+      ],
+      "previousBranding": [
+        "IBM InfoSphere DataStage",
+        "IBM DataStage"
+      ],
+      "abbreviations": ["DS"],
+      "motions": [
+        "Engineer data for real-time use"
+      ],
+      "aliases": [
+        "datastage",
+        "ibm datastage",
+        "infosphere datastage",
+        "websphere datastage",
+        "datastage etl",
+        "datastage elt",
+        "datastage pipeline"
+      ]
+    },
+
+    "StreamSets": {
+      "approvedName": "StreamSets",
+      "historicalNames": [
+        "StreamSets Data Collector",
+        "StreamSets Transformer",
+        "StreamSets Control Hub"
+      ],
+      "previousBranding": [
+        "StreamSets (acquired by IBM 2021)"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Build real-time operational intelligence",
+        "Engineer data for real-time use"
+      ],
+      "aliases": [
+        "streamsets",
+        "ibm streamsets",
+        "streamsets data collector",
+        "streamsets transformer",
+        "streamsets control hub"
+      ]
+    },
+
+    "Databand": {
+      "approvedName": "Databand",
+      "historicalNames": [
+        "Databand.ai"
+      ],
+      "previousBranding": [
+        "Databand (acquired by IBM 2022)"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "databand",
+        "ibm databand",
+        "databand.ai",
+        "databand observability",
+        "pipeline observability"
+      ]
+    },
+
+    "Unstructured Data Processing": {
+      "approvedName": "Unstructured Data Processing",
+      "historicalNames": [
+        "IBM Content Analytics",
+        "IBM Content Manager",
+        "IBM Datacap"
+      ],
+      "previousBranding": [
+        "IBM Unstructured Data Processing"
+      ],
+      "abbreviations": ["UDP"],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "unstructured data processing",
+        "udp",
+        "ibm content analytics",
+        "ibm datacap",
+        "ibm content manager",
+        "document processing",
+        "document extraction"
+      ]
+    },
+
+    "Data Replication / CDC": {
+      "approvedName": "Data Replication / CDC",
+      "historicalNames": [
+        "IBM InfoSphere Data Replication",
+        "IBM InfoSphere Change Data Capture",
+        "IIDR",
+        "IBM CDC"
+      ],
+      "previousBranding": [
+        "DataMirror",
+        "Attunity Replicate"
+      ],
+      "abbreviations": ["CDC", "IIDR"],
+      "motions": [
+        "Engineer data for real-time use",
+        "Build real-time operational intelligence"
+      ],
+      "aliases": [
+        "data replication",
+        "change data capture",
+        "cdc replication",
+        "iidr",
+        "ibm infosphere data replication",
+        "infosphere change data capture",
+        "ibm cdc",
+        "log-based replication"
+      ]
+    },
+
+    "Data Governance & Catalog": {
+      "approvedName": "Data Governance & Catalog",
+      "historicalNames": [
+        "IBM Watson Knowledge Catalog",
+        "IBM Unified Governance",
+        "InfoSphere Business Glossary"
+      ],
+      "previousBranding": [
+        "IBM Information Governance Catalog",
+        "IBM Information Server (governance component)"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "data governance",
+        "ibm data governance",
+        "unified governance",
+        "information governance",
+        "data governance catalog",
+        "governance catalog"
+      ]
+    },
+
+    "Data Quality": {
+      "approvedName": "Data Quality",
+      "historicalNames": [
+        "IBM InfoSphere QualityStage",
+        "IBM InfoSphere DataQuality",
+        "IBM DataQuality"
+      ],
+      "previousBranding": [
+        "IBM Information Server (quality component)",
+        "IBM QualityStage"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "data quality",
+        "ibm data quality",
+        "qualitystage",
+        "ibm qualitystage",
+        "infosphere qualitystage",
+        "data profiling",
+        "data cleansing"
+      ]
+    },
+
+    "Data Lineage": {
+      "approvedName": "Data Lineage",
+      "historicalNames": [
+        "IBM InfoSphere Information Analyzer (lineage component)",
+        "InfoSphere Business Glossary"
+      ],
+      "previousBranding": [
+        "IBM Information Server (lineage component)"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "data lineage",
+        "ibm data lineage",
+        "lineage tracking",
+        "data provenance",
+        "end-to-end lineage"
+      ]
+    },
+
+    "Data Product Hub": {
+      "approvedName": "Data Product Hub",
+      "historicalNames": [],
+      "previousBranding": [],
+      "abbreviations": ["DPH"],
+      "motions": [
+        "Build real-time operational intelligence",
+        "Accelerate context-intensive AI + analytics",
+        "Engineer data for real-time use"
+      ],
+      "aliases": [
+        "data product hub",
+        "ibm data product hub",
+        "dph"
+      ]
+    },
+
+    "IBM Knowledge Catalog": {
+      "approvedName": "IBM Knowledge Catalog",
+      "historicalNames": [
+        "Watson Knowledge Catalog",
+        "IBM Information Governance Catalog",
+        "InfoSphere Business Glossary"
+      ],
+      "previousBranding": [
+        "Watson Knowledge Catalog (WKC)",
+        "IBM Unified Catalog"
+      ],
+      "abbreviations": ["IKC", "WKC"],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "ibm knowledge catalog",
+        "ibm knowledge catalogue",
+        "ikc",
+        "wkc",
+        "watson knowledge catalog",
+        "watson knowledge catalogue"
+      ]
+    },
+
+    "Manta Data Lineage": {
+      "approvedName": "Manta Data Lineage",
+      "historicalNames": [
+        "Manta",
+        "Manta Flow"
+      ],
+      "previousBranding": [
+        "Manta (acquired by IBM 2023)"
+      ],
+      "abbreviations": ["Manta"],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "manta data lineage",
+        "manta flow",
+        "ibm manta",
+        "manta lineage",
+        "automated data lineage"
+      ]
+    },
+
+    "GPU Acceleration": {
+      "approvedName": "GPU Acceleration",
+      "historicalNames": [],
+      "previousBranding": [
+        "IBM Power AI",
+        "IBM PowerAI (NVIDIA on Power)"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Accelerate context-intensive AI + analytics"
+      ],
+      "aliases": [
+        "gpu acceleration",
+        "ibm gpu",
+        "power ai",
+        "powerai",
+        "nvidia on power",
+        "accelerated computing"
+      ]
+    },
+
+    "DataStax": {
+      "approvedName": "DataStax",
+      "historicalNames": [
+        "Apache Cassandra (managed)",
+        "DataStax Enterprise",
+        "DataStax Astra"
+      ],
+      "previousBranding": [
+        "DataStax (partner product)"
+      ],
+      "abbreviations": [],
+      "motions": [
+        "Build real-time operational intelligence"
+      ],
+      "aliases": [
+        "datastax",
+        "datastax enterprise",
+        "datastax astra",
+        "apache cassandra",
+        "cassandra database"
+      ]
+    }
+
+  },
+
+  "_matching_rules": {
+    "rule1": "A product is matched ONLY when an alias phrase appears verbatim (case-insensitive) in the story body text.",
+    "rule2": "Generic terms — 'AI', 'analytics', 'cloud', 'data', 'machine learning', 'pipeline' — are NEVER aliases and NEVER trigger a match on their own.",
+    "rule3": "If no alias from any product matches the story body, set productCategories = [] and flag the story as 'Needs review'.",
+    "rule4": "When an alias matches, record the approvedName (not the alias) in the output. Preserve the original text phrase found in the story separately in productsMentioned for traceability.",
+    "rule5": "Multiple products may match a single story."
+  },
+
+  "_legacy_categories_removed": [
+    "watsonx (generic)",
+    "AI Factsheets",
+    "Cloud Pak for Data",
+    "Master Data Management",
+    "IBM MQ",
+    "App Connect",
+    "API Connect",
+    "DataPower",
+    "Aspera",
+    "Sterling",
+    "IBM Z",
+    "Power Systems",
+    "IBM Cloud",
+    "Red Hat OpenShift",
+    "Red Hat",
+    "FlashSystem"
+  ],
+
+  "_legacy_categories_note": "The above categories existed in v1 of this taxonomy and have been superseded. Products like IBM Z, Power Systems, IBM Cloud and Red Hat are infrastructure, not IBM Data Platform products. They should NOT trigger a Data Platform match."
+}

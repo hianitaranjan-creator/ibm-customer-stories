@@ -1,0 +1,292 @@
+{
+  "mode": "all",
+  "startedAt": "2026-09-01T08:38:53.346Z",
+  "finishedAt": "2026-09-01T08:40:22.252Z",
+  "cataloguePagesProcessed": 40,
+  "totalUniqueUrls": 1186,
+  "advertisedTotal": 1187,
+  "stoppedEarly": true,
+  "stopReason": "Next button disabled",
+  "pagesDetail": [
+    {
+      "pageNumber": 1,
+      "firstUrl": "https://www.ibm.com/case-studies/state-of-oregon-ois",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 30
+    },
+    {
+      "pageNumber": 2,
+      "firstUrl": "https://www.ibm.com/case-studies/agentlocator",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 60
+    },
+    {
+      "pageNumber": 3,
+      "firstUrl": "https://www.ibm.com/case-studies/melbourne-water-envizi",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 90
+    },
+    {
+      "pageNumber": 4,
+      "firstUrl": "https://www.ibm.com/case-studies/faw-volkswagen",
+      "cardsFound": 29,
+      "newUrls": 29,
+      "totalSoFar": 119
+    },
+    {
+      "pageNumber": 5,
+      "firstUrl": "https://www.ibm.com/case-studies/north-york-general-hospital-hybrid-cloud-cognos-analytics",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 149
+    },
+    {
+      "pageNumber": 6,
+      "firstUrl": "https://www.ibm.com/case-studies/electrolux",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 179
+    },
+    {
+      "pageNumber": 7,
+      "firstUrl": "https://www.ibm.com/case-studies/new-jersey-department-of-community-affairs-consulting",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 209
+    },
+    {
+      "pageNumber": 8,
+      "firstUrl": "https://www.ibm.com/case-studies/fleetpride",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 239
+    },
+    {
+      "pageNumber": 9,
+      "firstUrl": "https://www.ibm.com/case-studies/uk-health-security-agency",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 269
+    },
+    {
+      "pageNumber": 10,
+      "firstUrl": "https://www.ibm.com/case-studies/credito-emiliano-credem",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 299
+    },
+    {
+      "pageNumber": 11,
+      "firstUrl": "https://www.ibm.com/case-studies/new-york-power-authority",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 329
+    },
+    {
+      "pageNumber": 12,
+      "firstUrl": "https://www.ibm.com/case-studies/oco-global",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 359
+    },
+    {
+      "pageNumber": 13,
+      "firstUrl": "https://www.ibm.com/case-studies/verizon",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 389
+    },
+    {
+      "pageNumber": 14,
+      "firstUrl": "https://www.ibm.com/case-studies/rox-hi-tech",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 419
+    },
+    {
+      "pageNumber": 15,
+      "firstUrl": "https://www.ibm.com/case-studies/generali-poland",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 449
+    },
+    {
+      "pageNumber": 16,
+      "firstUrl": "https://www.ibm.com/case-studies/marco-polo-network",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 479
+    },
+    {
+      "pageNumber": 17,
+      "firstUrl": "https://www.ibm.com/case-studies/garanti-bbva",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 509
+    },
+    {
+      "pageNumber": 18,
+      "firstUrl": "https://www.ibm.com/case-studies/systemresearch",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 539
+    },
+    {
+      "pageNumber": 19,
+      "firstUrl": "https://www.ibm.com/case-studies/clearscope",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 569
+    },
+    {
+      "pageNumber": 20,
+      "firstUrl": "https://www.ibm.com/case-studies/tim-ag",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 599
+    },
+    {
+      "pageNumber": 21,
+      "firstUrl": "https://www.ibm.com/case-studies/clariti-dx",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 629
+    },
+    {
+      "pageNumber": 22,
+      "firstUrl": "https://www.ibm.com/case-studies/satellite-services-provider-sevone",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 659
+    },
+    {
+      "pageNumber": 23,
+      "firstUrl": "https://www.ibm.com/case-studies/continental-foods-cloud-planning-analytics",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 689
+    },
+    {
+      "pageNumber": 24,
+      "firstUrl": "https://www.ibm.com/case-studies/china-minsheng-banking-corp",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 719
+    },
+    {
+      "pageNumber": 25,
+      "firstUrl": "https://www.ibm.com/case-studies/seal-systems",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 749
+    },
+    {
+      "pageNumber": 26,
+      "firstUrl": "https://www.ibm.com/case-studies/ibm-cio-watsonx",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 779
+    },
+    {
+      "pageNumber": 27,
+      "firstUrl": "https://www.ibm.com/case-studies/tien-phong-commercial-joint-stock-bank",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 809
+    },
+    {
+      "pageNumber": 28,
+      "firstUrl": "https://www.ibm.com/case-studies/westnetz-gmbh",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 839
+    },
+    {
+      "pageNumber": 29,
+      "firstUrl": "https://www.ibm.com/case-studies/srbijavoz-ibis",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 869
+    },
+    {
+      "pageNumber": 30,
+      "firstUrl": "https://www.ibm.com/case-studies/siam-commercial-bank-systems-ibm-z",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 899
+    },
+    {
+      "pageNumber": 31,
+      "firstUrl": "https://www.ibm.com/case-studies/insta-group",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 929
+    },
+    {
+      "pageNumber": 32,
+      "firstUrl": "https://www.ibm.com/case-studies/city-of-tyler-digital-transformation",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 959
+    },
+    {
+      "pageNumber": 33,
+      "firstUrl": "https://www.ibm.com/case-studies/banca-transilvania",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 989
+    },
+    {
+      "pageNumber": 34,
+      "firstUrl": "https://www.ibm.com/case-studies/repo-cyber",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 1019
+    },
+    {
+      "pageNumber": 35,
+      "firstUrl": "https://www.ibm.com/case-studies/the-conference-board",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 1049
+    },
+    {
+      "pageNumber": 36,
+      "firstUrl": "https://www.ibm.com/case-studies/hzmo",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 1079
+    },
+    {
+      "pageNumber": 37,
+      "firstUrl": "https://www.ibm.com/case-studies/lotte-confectionary-watsonai",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 1109
+    },
+    {
+      "pageNumber": 38,
+      "firstUrl": "https://www.ibm.com/case-studies/ucm-technics",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 1139
+    },
+    {
+      "pageNumber": 39,
+      "firstUrl": "https://www.ibm.com/case-studies/Kraft-Heinz-Company",
+      "cardsFound": 30,
+      "newUrls": 30,
+      "totalSoFar": 1169
+    },
+    {
+      "pageNumber": 40,
+      "firstUrl": "https://www.ibm.com/case-studies/farmers-state-bank",
+      "cardsFound": 17,
+      "newUrls": 17,
+      "totalSoFar": 1186
+    }
+  ]
+}

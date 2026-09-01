@@ -1,0 +1,32 @@
+{
+  "name": "ibm-customer-stories-crawler",
+  "version": "1.0.0",
+  "description": "Crawlee-powered crawler for IBM case studies",
+  "private": true,
+  "scripts": {
+    "crawl:test":       "node node_modules/ts-node/dist/bin.js scripts/crawl-ibm-case-studies.ts --test",
+    "crawl:all":        "node node_modules/ts-node/dist/bin.js scripts/crawl-ibm-case-studies.ts --all",
+    "crawl:validate":   "node node_modules/ts-node/dist/bin.js scripts/crawl-ibm-case-studies.ts --validate",
+    "discover:test":    "node scripts/discover-story-urls.js --test",
+    "discover:all":     "node scripts/discover-story-urls.js --all",
+    "discovery:report": "node scripts/discover-story-urls.js --report",
+    "scrape:test":      "node scripts/scrape-story-details.js --test",
+    "scrape:all":       "node scripts/scrape-story-details.js --all",
+    "scrape:report":    "node scripts/scrape-story-details.js --report",
+    "classify:stories": ".venv\\Scripts\\python.exe scripts/json-to-dashboard.py",
+    "build":            ".venv\\Scripts\\python.exe run.py --mode full",
+    "dev":              "start \"\" \"output\\dashboard\\index.html\""
+  },
+  "dependencies": {
+    "cheerio":    "^1.0.0",
+    "crawlee":    "^3.11.0",
+    "p-limit":    "^3.1.0",
+    "p-retry":    "^4.6.2",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "typescript":  "^5.7.0",
+    "ts-node":     "^10.9.2",
+    "@types/node": "^22.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+# ── Large / generated at runtime ────────────────────────────────
+cache/
+.venv/
+node_modules/
+__pycache__/
+
+# ── Secrets ──────────────────────────────────────────────────────
+.env
+
+# ── Duplicate / backup files ─────────────────────────────────────
+output/dashboard/data_BACKUP.json
+output/dashboard/index_BACKUP.html
+
+# ── Bob internal ─────────────────────────────────────────────────
+.bob/
+
+# ── OS junk ──────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
