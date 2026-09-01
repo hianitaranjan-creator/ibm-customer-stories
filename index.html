@@ -736,6 +736,7 @@ table.gaps tbody td{padding:10px 14px;vertical-align:middle}
         <span class="dim-label" style="margin-left:8px">Columns:</span>
         <button class="dim-btn on" data-axis="col" data-val="geography">Geography</button>
         <button class="dim-btn" data-axis="col" data-val="product">Top Products</button>
+        <button class="dim-btn" data-axis="col" data-val="family">Product Family</button>
       </div>
 
       <div class="mx-legend" role="list" aria-label="Coverage legend">
@@ -893,7 +894,12 @@ function storyText(s) {
   return [s.customer_name, s.title, s.industry, s.geography, s.products,
           s.description, s.challenge, s.solution, s.business_outcomes,
           s.quantified_proof, s.customer_quote, s.gtm_motions,
-          (s.topics||[]).join(' '), (s.product_categories||[]).join(' ')]
+          (s.topics||[]).join(' '), (s.product_categories||[]).join(' '),
+          // Taxonomy enrichment — search also covers canonical names, aliases, legacy terms
+          (s.product_tags||[]).join(' '),
+          (s.product_families||[]).join(' '),
+          (s.product_portfolios||[]).join(' '),
+          (s.taxonomy_search_terms||[]).join(' ')]
     .filter(Boolean).join(' ').toLowerCase();
 }
 
@@ -1375,6 +1381,11 @@ function mxStateLabel(state) {
 
 function getColVals(stories) {
   if(_mxCol==='geography') return uniq(stories.map(s=>s.geography).filter(v=>v&&v!=='Needs review'));
+  if(_mxCol==='family') {
+    const fc={};
+    stories.forEach(s=>(s.product_families||[]).forEach(f=>{fc[f]=(fc[f]||0)+1;}));
+    return Object.entries(fc).sort((a,b)=>b[1]-a[1]).slice(0,12).map(([f])=>f);
+  }
   const pc={};
   stories.forEach(s=>storyProds(s).forEach(p=>{pc[p]=(pc[p]||0)+1;}));
   return Object.entries(pc).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([p])=>p);
@@ -1418,6 +1429,7 @@ function renderCoverage(stories) {
 
 function intersect(stories, row, col) {
   if(_mxCol==='geography') return stories.filter(s=>s.industry===row&&s.geography===col);
+  if(_mxCol==='family')    return stories.filter(s=>s.industry===row&&(s.product_families||[]).includes(col));
   return stories.filter(s=>s.industry===row&&storyProds(s).includes(col));
 }
 
