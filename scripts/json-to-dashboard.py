@@ -255,6 +255,148 @@ def _is_business_partner(topics: list[str], categories: list[str]) -> str:
     return "No"
 
 
+# ── Geography re-inference ────────────────────────────────────────────────────
+# Extended keyword map covering all countries IBM case-study pages use as topics.
+# Bucket names match the values the crawler already writes ("Americas", "EMEA", etc.)
+# so we stay consistent with existing data.
+_GEO_REMAP: list[tuple[str, list[str]]] = [
+    ("EMEA", [
+        "uk", "united kingdom", "britain", "england",
+        "germany", "german", "deutschland",
+        "france", "french",
+        "spain", "spanish",
+        "italy", "italian",
+        "netherlands", "dutch",
+        "belgium", "belgian",
+        "sweden", "swedish",
+        "norway", "norwegian",
+        "denmark", "danish",
+        "finland", "finnish",
+        "switzerland", "swiss",
+        "austria", "austrian",
+        "poland", "polish",
+        "czech", "czechia",
+        "hungary", "hungarian",
+        "croatia", "croatian",
+        "greece", "greek",
+        "portugal", "portuguese",
+        "ireland", "irish",
+        "scotland", "wales",
+        "russia", "russian",
+        "ukraine", "ukrainian",
+        "europe", "european",
+        "middle east",
+        "africa", "african",
+        "south africa",
+        "nigeria", "nigerian",
+        "kenya", "kenyan",
+        "ghana",
+        "egypt", "egyptian",
+        "morocco", "moroccan",
+        "ethiopia",
+        "saudi", "saudi arabia",
+        "emirates", "uae", "united arab emirates",
+        "israel", "israeli",
+        "turkey", "turkish", "t\u00fcrkiye", "turkiye", "t rkiye",
+        "oman", "omani",
+        "qatar",
+        "bahrain",
+        "kuwait",
+        "jordan",
+        "lebanon",
+        "iraq",
+        "pakistan", "pakistani",
+    ]),
+    ("Americas", [
+        "united states", "u.s.", "usa",
+        "canada", "canadian",
+        "american", "north america",
+        "brazil", "brazilian",
+        "mexico", "mexican",
+        "argentina", "argentine",
+        "colombia", "colombian",
+        "chile", "chilean",
+        "peru", "peruvian",
+        "venezuela",
+        "latin america", "latam",
+        "americas",
+    ]),
+    ("Asia Pacific", [
+        "india", "indian",
+        "china", "chinese",
+        "australia", "australian",
+        "new zealand",
+        "singapore",
+        "hong kong",
+        "south korea", "korea", "korean",
+        "taiwan",
+        "indonesia", "indonesian",
+        "malaysia", "malaysian",
+        "thailand", "thai",
+        "vietnam", "vietnamese",
+        "philippines", "filipino",
+        "bangladesh",
+        "sri lanka",
+        "nepal",
+        "asia", "asia pacific", "apac",
+        "japan", "japanese",
+    ]),
+]
+
+# Topic strings that explicitly mean "no single geography" — leave as Needs review.
+_GLOBAL_TOPICS = {"world", "global", "worldwide", "international", "multinational"}
+
+
+def _infer_geography_from_topics(topics: list[str], body: str) -> str:
+    """
+    Re-infer a geography bucket from the topics list and body text.
+
+    Strategy (in priority order):
+    1. If any topic signals a genuinely global/worldwide story → "Global".
+    2. Scan each topic string against the extended keyword map.
+    3. Fall back to scanning the body text.
+    4. Return "Global" if nothing matches (no region signal = worldwide).
+    """
+    # 1. Genuinely global stories.
+    for topic in topics:
+        if topic.lower() in _GLOBAL_TOPICS:
+            return "Global"
+
+    # 2. Topics are often single country names: exact or substring match is fine.
+    for topic in topics:
+        tl = topic.lower()
+        for bucket, keywords in _GEO_REMAP:
+            if any(kw in tl for kw in keywords):
+                return bucket
+
+    # 3. Body text fallback.
+    bl = body.lower()
+    for bucket, keywords in _GEO_REMAP:
+        if any(kw in bl for kw in keywords):
+            return bucket
+
+    return "Global"
+
+
+def _resolve_geography(raw: dict, body: str) -> str:
+    """
+    Return the best geography value for a story.
+
+    If the crawler already wrote a real bucket (EMEA / Americas / Asia Pacific /
+    North America / APAC / Latin America / Japan) keep it.
+    Otherwise re-infer from topics + body text.
+    """
+    stored = (raw.get("geography") or "").strip()
+    # Valid values from both old and new crawler runs.
+    _VALID = {"emea", "americas", "north america", "asia pacific", "apac",
+              "japan", "latin america", "other / global"}
+    if stored.lower() in _VALID:
+        return stored
+    # Stored is "Needs review", empty, or unknown — re-infer.
+    topics = raw.get("topics") or []
+    return _infer_geography_from_topics(topics, body)
+
+
 # ── Mapping function ─────────────────────────────────────────────────────────
 
 def map_story(raw: dict, idx: int) -> dict:
@@ -281,7 +423,7 @@ def map_story(raw: dict, idx: int) -> dict:
         "business_partner":      _is_business_partner(raw.get("topics") or [], raw.get("productCategories") or []),
         "industry":              raw.get("industry") or "Needs review",
         "sub_industry":          None,
-        "geography":             raw.get("geography") or "Needs review",
+        "geography":             _resolve_geography(raw, body),
         "products":              products_csv,
         "gtm_motions":           "; ".join(gtm_motions),
         "open_governed_hybrid":  _open_governed_hybrid(raw.get("productCategories") or [], body),
