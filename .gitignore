@@ -18,3 +18,5 @@ output/dashboard/index_BACKUP.html
 Thumbs.db
 .DS_Store
 desktop.ini
+# -- Editor settings ---------------------------------------------
+.vscode/
