@@ -39,6 +39,12 @@ button{font-family:inherit;cursor:pointer}
 .tab:focus-visible{outline:2px solid #78a9ff;outline-offset:2px}
 .nav-r{display:flex;align-items:center;gap:10px;flex-shrink:0}
 #live-ct{font-size:11px;color:#8d8d8d}.live-n{color:#78a9ff;font-weight:700}
+#nav-export-btn{display:flex;align-items:center;gap:5px;padding:5px 13px;
+  background:transparent;border:1px solid #525252;color:#c6c6c6;
+  font-size:11px;font-weight:600;font-family:inherit;cursor:pointer;
+  transition:all .15s;white-space:nowrap;flex-shrink:0}
+#nav-export-btn:hover{border-color:#78a9ff;color:#78a9ff}
+#nav-export-btn:focus-visible{outline:2px solid #78a9ff;outline-offset:2px}
 
 /* ── HERO (Overview only) ── */
 #hero{background:var(--blue);border-bottom:2px solid #0043ce;padding:20px 24px 16px;
@@ -377,6 +383,13 @@ table.gaps tbody td{padding:8px 12px;vertical-align:top}
   </div>
   <div class="nav-r">
     <div id="live-ct" aria-live="polite"><span class="live-n" id="lc-n">—</span> stories</div>
+    <button id="nav-export-btn" aria-label="Export current filtered stories to Excel CSV">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+        <path d="M8 11.5l-4-4h2.5V2h3v5.5H12L8 11.5z"/>
+        <path d="M2 13h12v1.5H2V13z"/>
+      </svg>
+      Export to Excel
+    </button>
     <div class="nav-badge">IBM Proof</div>
   </div>
 </nav>
@@ -1288,8 +1301,8 @@ document.getElementById('drawer').addEventListener('keydown', e=>{
   else if(!e.shiftKey&&document.activeElement===last){ e.preventDefault(); first.focus(); }
 });
 
-// ── CSV EXPORT ────────────────────────────────────────────────────────────────
-document.getElementById('export-btn').addEventListener('click', () => {
+// ── CSV / EXCEL EXPORT ────────────────────────────────────────────────────────
+function doExport() {
   const cols=[['Client','customer_name'],['Title','title'],['Industry','industry'],
     ['Geography','geography'],['Products',s=>storyProds(s).join(' | ')],
     ['Outcome','quantified_proof'],['Published','publication_date'],['URL','source_url']];
@@ -1299,7 +1312,10 @@ document.getElementById('export-btn').addEventListener('click', () => {
   const a=document.createElement('a');
   a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);
   a.download='ibm-customer-stories-filtered.csv'; a.click();
-});
+}
+// Both the in-table button and the top-nav button trigger the same export
+document.getElementById('export-btn').addEventListener('click', doExport);
+document.getElementById('nav-export-btn').addEventListener('click', doExport);
 
 // ── MOBILE FILTER TOGGLE ─────────────────────────────────────────────────────
 document.getElementById('mobile-filter-btn').addEventListener('click', () => {
