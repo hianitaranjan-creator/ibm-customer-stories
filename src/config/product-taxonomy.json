@@ -1,459 +1,998 @@
 {
-  "_schema_version": "2.0",
-  "_comment": "IBM Data Platform Product Taxonomy v2 — rebuilt from approved product list. Products are organised under the three IBM Data Platform GTM motions. Every product entry stores: approvedName (current), historicalNames (past product names), previousBranding (past brand labels), abbreviations (common short forms), and aliases (exact match phrases used by the crawler — case-insensitive). The 'aliases' list is intentionally specific: generic terms like 'AI', 'analytics', 'cloud' or 'data' are NEVER included as aliases. If no alias matches, the story is classified as 'Needs review'.",
+  "_meta": {
+    "version": "1.0",
+    "baseline_date": "2026-08-31",
+    "scope": "Current marketed/documented IBM software, historically significant IBM software, acquired brands, aliases, product-family hierarchy, and evidence-backed lineage. Red Hat maintained as separate reference taxonomy.",
+    "confidence_values": ["confirmed", "probable", "needs_review", "unmapped"],
+    "relationship_types": [
+      "current_name_of", "former_name_of", "alias_of", "child_of",
+      "component_of", "related_to", "acquired_brand", "successor_of",
+      "runs_on_platform", "divested", "no_automatic_successor"
+    ]
+  },
 
-  "motions": [
-    "Build real-time operational intelligence",
-    "Accelerate context-intensive AI + analytics",
-    "Engineer data for real-time use"
-  ],
-
-  "products": {
-
-    "watsonx.data": {
-      "approvedName": "watsonx.data",
-      "historicalNames": [
-        "IBM Watson Query",
-        "Watson Data Platform",
-        "Watson Data Store",
-        "IBM Db2 Big SQL"
-      ],
-      "previousBranding": [
-        "Cloud Pak for Data (data lake component)",
-        "IBM Integrated Analytics System"
-      ],
-      "abbreviations": ["wxd"],
-      "motions": [
-        "Build real-time operational intelligence",
-        "Accelerate context-intensive AI + analytics",
-        "Engineer data for real-time use"
-      ],
-      "aliases": [
-        "watsonx.data",
-        "watson x.data",
-        "wxd",
-        "watsonx data lakehouse",
-        "ibm watsonx.data",
-        "watson query"
+  "portfolios": [
+    {
+      "id": "ai_productivity",
+      "label": "AI Productivity",
+      "families": [
+        {
+          "id": "watsonx_ai_agents",
+          "label": "watsonx / AI agents and assistants",
+          "products": [
+            {
+              "id": "ibm_watsonx",
+              "canonical": "IBM watsonx",
+              "aliases": ["watsonx"],
+              "detection_patterns": ["watsonx"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_ai",
+              "canonical": "watsonx.ai",
+              "aliases": ["watsonx.ai Studio", "watsonx AI"],
+              "detection_patterns": ["watsonx.ai", "watsonx ai studio", "watsonx ai runtime"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_ai_studio",
+              "canonical": "watsonx.ai Studio",
+              "aliases": [],
+              "detection_patterns": ["watsonx.ai studio", "watsonx ai studio", "watson studio"],
+              "legacy": [
+                {
+                  "term": "Watson Studio",
+                  "relationship": "former_name_of",
+                  "confidence": "confirmed",
+                  "source": "IBM product rename announcement"
+                }
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_ai_runtime",
+              "canonical": "watsonx.ai Runtime",
+              "aliases": [],
+              "detection_patterns": ["watsonx.ai runtime", "watson machine learning"],
+              "legacy": [
+                {
+                  "term": "Watson Machine Learning",
+                  "relationship": "former_name_of",
+                  "confidence": "confirmed",
+                  "source": "IBM product rename announcement"
+                }
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_orchestrate",
+              "canonical": "watsonx Orchestrate",
+              "aliases": [],
+              "detection_patterns": ["watsonx orchestrate"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_assistant",
+              "canonical": "watsonx Assistant",
+              "aliases": ["Watson Assistant"],
+              "detection_patterns": ["watsonx assistant", "watson assistant"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_code_assistant",
+              "canonical": "watsonx Code Assistant",
+              "aliases": ["watsonx Code Assistant for Z"],
+              "detection_patterns": ["watsonx code assistant"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_bob",
+              "canonical": "IBM Bob",
+              "aliases": ["Bob"],
+              "detection_patterns": ["ibm bob"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_granite",
+              "canonical": "IBM Granite",
+              "aliases": ["Granite"],
+              "detection_patterns": ["granite", "ibm granite"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watson_speech",
+              "canonical": "IBM Watson Speech to Text",
+              "aliases": ["Watson Speech to Text", "Watson Text to Speech"],
+              "detection_patterns": ["watson speech to text", "watson text to speech"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "watsonx.data integration": {
-      "approvedName": "watsonx.data integration",
-      "historicalNames": [
-        "DataStage as a Service",
-        "DataStage Ent+",
-        "InfoSphere DataStage (cloud-native edition)"
-      ],
-      "previousBranding": [
-        "IBM DataStage SaaS",
-        "DataStage on Cloud"
-      ],
-      "abbreviations": ["wxdi"],
-      "motions": [
-        "Engineer data for real-time use"
-      ],
-      "aliases": [
-        "watsonx.data integration",
-        "wxdi",
-        "datastage as a service",
-        "datastage aaas",
-        "datastage saas",
-        "datastage on cloud",
-        "ibm watsonx.data integration"
+    {
+      "id": "data_management",
+      "label": "Data Management",
+      "families": [
+        {
+          "id": "watsonx_data_family",
+          "label": "watsonx.data",
+          "products": [
+            {
+              "id": "watsonx_data",
+              "canonical": "IBM watsonx.data",
+              "aliases": ["watsonx.data"],
+              "detection_patterns": ["watsonx.data"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_data_integration",
+              "canonical": "watsonx.data integration",
+              "aliases": [],
+              "detection_patterns": ["watsonx.data integration"],
+              "legacy": [
+                {"term": "DataStage", "relationship": "child_of", "confidence": "confirmed", "source": "IBM product docs"},
+                {"term": "StreamSets", "relationship": "child_of", "confidence": "confirmed", "source": "IBM acquisition"},
+                {"term": "Databand", "relationship": "child_of", "confidence": "confirmed", "source": "IBM acquisition"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_data_intelligence",
+              "canonical": "watsonx.data intelligence",
+              "aliases": [],
+              "detection_patterns": ["watsonx.data intelligence"],
+              "legacy": [
+                {"term": "IBM Knowledge Catalog", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM rename announcement"},
+                {"term": "Watson Knowledge Catalog", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM rename announcement"},
+                {"term": "Manta Data Lineage", "relationship": "child_of", "confidence": "confirmed", "source": "IBM acquisition"},
+                {"term": "IBM Manta Data Lineage", "relationship": "child_of", "confidence": "confirmed", "source": "IBM acquisition"},
+                {"term": "Data Product Hub", "relationship": "child_of", "confidence": "confirmed", "source": "IBM product docs"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "watsonx_bi",
+              "canonical": "watsonx BI",
+              "aliases": [],
+              "detection_patterns": ["watsonx bi"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_datastage",
+              "canonical": "IBM DataStage",
+              "aliases": ["DataStage", "InfoSphere DataStage"],
+              "detection_patterns": ["datastage", "infosphere datastage"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_data_replication",
+              "canonical": "IBM Data Replication",
+              "aliases": ["IIDR", "InfoSphere Change Data Capture"],
+              "detection_patterns": ["ibm data replication", "iidr", "infosphere change data capture"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_data_virtualization",
+              "canonical": "IBM Data Virtualization",
+              "aliases": [],
+              "detection_patterns": ["data virtualization"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_knowledge_catalog",
+              "canonical": "IBM Knowledge Catalog",
+              "aliases": ["Watson Knowledge Catalog", "WKC"],
+              "detection_patterns": ["ibm knowledge catalog", "watson knowledge catalog", "wkc"],
+              "legacy": [
+                {"term": "IBM Knowledge Catalog", "relationship": "former_name_of", "canonical_successor": "watsonx.data intelligence", "confidence": "confirmed"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_manta",
+              "canonical": "IBM Manta Data Lineage",
+              "aliases": ["Manta", "Manta Data Lineage"],
+              "detection_patterns": ["manta", "manta data lineage"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_data_product_hub",
+              "canonical": "IBM Data Product Hub",
+              "aliases": ["Data Product Hub"],
+              "detection_patterns": ["data product hub"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "streamsets",
+              "canonical": "StreamSets",
+              "aliases": [],
+              "detection_patterns": ["streamsets"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "databand",
+              "canonical": "Databand",
+              "aliases": [],
+              "detection_patterns": ["databand"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "datastax",
+              "canonical": "DataStax / Astra DB",
+              "aliases": ["DataStax", "Astra DB"],
+              "detection_patterns": ["datastax", "astra db"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "databases_transaction",
+          "label": "Databases and Transaction Data",
+          "products": [
+            {
+              "id": "ibm_db2",
+              "canonical": "IBM Db2",
+              "aliases": ["Db2", "DB2", "Db2 on Cloud", "Db2 Warehouse", "Db2 for z/OS", "Db2 for i"],
+              "detection_patterns": ["ibm db2", "db2", "db 2"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_netezza",
+              "canonical": "IBM Netezza Performance Server",
+              "aliases": ["Netezza", "IBM PureData"],
+              "detection_patterns": ["netezza"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_informix",
+              "canonical": "IBM Informix",
+              "aliases": ["Informix"],
+              "detection_patterns": ["informix"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_cloudant",
+              "canonical": "IBM Cloudant",
+              "aliases": ["Cloudant"],
+              "detection_patterns": ["cloudant"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_mdm",
+              "canonical": "IBM Master Data Management",
+              "aliases": ["Master Data Management", "MDM", "IBM Product Master"],
+              "detection_patterns": ["master data management", "ibm mdm"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_optim",
+              "canonical": "IBM InfoSphere Optim",
+              "aliases": ["InfoSphere Optim", "Optim"],
+              "detection_patterns": ["infosphere optim", "optim data"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "analytics_bi_planning",
+          "label": "Analytics, BI, Planning and Optimization",
+          "products": [
+            {
+              "id": "ibm_cognos",
+              "canonical": "IBM Cognos Analytics",
+              "aliases": ["Cognos", "Cognos Analytics"],
+              "detection_patterns": ["cognos"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_planning_analytics",
+              "canonical": "IBM Planning Analytics",
+              "aliases": ["TM1", "Cognos TM1", "Planning Analytics"],
+              "detection_patterns": ["planning analytics", "tm1", "cognos tm1"],
+              "legacy": [
+                {"term": "TM1", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "Cognos TM1", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_spss_statistics",
+              "canonical": "IBM SPSS Statistics",
+              "aliases": ["SPSS", "SPSS Statistics"],
+              "detection_patterns": ["spss statistics", "spss"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_spss_modeler",
+              "canonical": "IBM SPSS Modeler",
+              "aliases": ["SPSS Modeler"],
+              "detection_patterns": ["spss modeler"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_decision_optimization",
+              "canonical": "IBM Decision Optimization",
+              "aliases": ["Decision Optimization", "CPLEX"],
+              "detection_patterns": ["decision optimization", "cplex"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "real_time_data",
+          "label": "Real-Time Data",
+          "products": [
+            {
+              "id": "confluent",
+              "canonical": "Confluent",
+              "aliases": ["Confluent Platform", "Kafka"],
+              "detection_patterns": ["confluent", "confluent platform"],
+              "acquisition_origin": "Confluent (partnership/distribution)",
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "watsonx.data intelligence": {
-      "approvedName": "watsonx.data intelligence",
-      "historicalNames": [
-        "IBM Knowledge Catalog (SaaS component)",
-        "Watson Knowledge Catalog"
-      ],
-      "previousBranding": [
-        "Watson Knowledge Catalog",
-        "Cloud Pak for Data (catalog component)"
-      ],
-      "abbreviations": ["wxdg", "wkc"],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "watsonx.data intelligence",
-        "wxdg",
-        "ibm watsonx.data intelligence"
+    {
+      "id": "security_governance",
+      "label": "Security and Governance",
+      "families": [
+        {
+          "id": "ai_data_governance",
+          "label": "AI / Data Governance",
+          "products": [
+            {
+              "id": "watsonx_governance",
+              "canonical": "IBM watsonx.governance",
+              "aliases": ["watsonx.governance"],
+              "detection_patterns": ["watsonx.governance", "watsonx governance"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_openpages",
+              "canonical": "IBM OpenPages",
+              "aliases": ["OpenPages"],
+              "detection_patterns": ["openpages"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_guardium",
+              "canonical": "IBM Guardium",
+              "aliases": ["Guardium", "Guardium AI Security", "Guardium Data Protection", "Guardium Data Encryption"],
+              "detection_patterns": ["guardium"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "identity_endpoint_fraud_threat",
+          "label": "Identity, Endpoint, Fraud and Threat",
+          "products": [
+            {
+              "id": "ibm_verify",
+              "canonical": "IBM Verify",
+              "aliases": ["Verify", "Verify Customer Identity", "Verify Identity Governance", "Verify Privileged Identity"],
+              "detection_patterns": ["ibm verify", "verify identity"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_vault",
+              "canonical": "IBM Vault",
+              "aliases": ["Vault", "HashiCorp Vault"],
+              "detection_patterns": ["ibm vault"],
+              "note": "Also appears under HashiCorp family",
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_maas360",
+              "canonical": "IBM MaaS360",
+              "aliases": ["MaaS360"],
+              "detection_patterns": ["maas360"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_qradar_siem",
+              "canonical": "IBM QRadar SIEM (on-premises)",
+              "aliases": ["QRadar", "QRadar SIEM"],
+              "detection_patterns": ["qradar"],
+              "note": "On-premises only. QRadar SaaS/Cloud was divested — do not treat as current IBM software.",
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_qradar_saas_divested",
+              "canonical": "QRadar on Cloud (divested)",
+              "aliases": ["QRadar on Cloud", "QRadar SIEM SaaS", "QRadar SOAR SaaS"],
+              "detection_patterns": ["qradar on cloud", "qradar saas"],
+              "relationship": "divested",
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_randori",
+              "canonical": "IBM Security Randori ASM",
+              "aliases": ["Randori"],
+              "detection_patterns": ["randori"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_trusteer",
+              "canonical": "IBM Trusteer",
+              "aliases": ["Trusteer"],
+              "detection_patterns": ["trusteer"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_safer_payments",
+              "canonical": "IBM Safer Payments",
+              "aliases": ["Safer Payments"],
+              "detection_patterns": ["safer payments"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "OpenRAG": {
-      "approvedName": "OpenRAG",
-      "historicalNames": [],
-      "previousBranding": [],
-      "abbreviations": [],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "openrag",
-        "open rag",
-        "ibm openrag"
+    {
+      "id": "integration_resilience",
+      "label": "Integration and Resilience",
+      "families": [
+        {
+          "id": "ibm_integration_family",
+          "label": "IBM Integration",
+          "products": [
+            {
+              "id": "ibm_integration_software",
+              "canonical": "IBM Integration Software",
+              "aliases": ["IBM Integration SaaS"],
+              "detection_patterns": ["ibm integration software", "ibm integration saas", "cloud pak for integration", "cp4i"],
+              "legacy": [
+                {"term": "Cloud Pak for Integration", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "CP4I", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "webMethods Hybrid Integration", "relationship": "successor_of", "confidence": "probable", "source": "IBM acquisition of Software AG webMethods"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_app_connect",
+              "canonical": "IBM App Connect",
+              "aliases": ["App Connect"],
+              "detection_patterns": ["app connect"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_api_connect",
+              "canonical": "IBM API Connect",
+              "aliases": ["API Connect"],
+              "detection_patterns": ["api connect"],
+              "legacy": [
+                {"term": "webMethods API Management", "relationship": "successor_of", "confidence": "probable", "source": "IBM acquisition of Software AG webMethods"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_mq",
+              "canonical": "IBM MQ",
+              "aliases": ["MQ", "WebSphere MQ", "MQSeries"],
+              "detection_patterns": ["ibm mq", "websphere mq", "mqseries"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_event_automation",
+              "canonical": "IBM Event Automation",
+              "aliases": ["Event Streams", "Event Processing"],
+              "detection_patterns": ["event automation", "event streams", "event processing"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_aspera",
+              "canonical": "IBM Aspera",
+              "aliases": ["Aspera"],
+              "detection_patterns": ["aspera"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_datapower",
+              "canonical": "IBM DataPower Gateway",
+              "aliases": ["DataPower"],
+              "detection_patterns": ["datapower"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "webmethods_b2b",
+              "canonical": "webMethods B2B",
+              "aliases": ["webMethods Integration", "webMethods Managed File Transfer"],
+              "detection_patterns": ["webmethods"],
+              "acquisition_origin": "Software AG",
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "sterling_family",
+          "label": "Sterling",
+          "products": [
+            {
+              "id": "ibm_sterling_b2b",
+              "canonical": "IBM Sterling B2B Integration SaaS",
+              "aliases": ["Sterling B2B Integrator", "Sterling B2B Integration Suite"],
+              "detection_patterns": ["sterling b2b", "sterling integrator"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "sterling_order_management",
+              "canonical": "Sterling Order Management",
+              "aliases": ["Sterling OMS"],
+              "detection_patterns": ["sterling order management"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "sterling_secure_file_gateway",
+              "canonical": "Sterling Secure File Gateway",
+              "aliases": ["Sterling Secure Proxy"],
+              "detection_patterns": ["sterling secure file gateway", "sterling secure proxy"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "observability_operations",
+          "label": "Observability, Operations and Network",
+          "products": [
+            {
+              "id": "ibm_concert",
+              "canonical": "IBM Concert",
+              "aliases": ["Concert", "Concert for Z"],
+              "detection_patterns": ["ibm concert"],
+              "note": "Instana and Turbonomic are RELATED TO Concert but are NOT renames of Concert.",
+              "legacy": [
+                {"term": "Cloud Pak for AIOps", "relationship": "successor_of", "confidence": "probable", "source": "IBM product evolution"},
+                {"term": "Rapid Network Automation", "relationship": "successor_of", "confidence": "confirmed", "source": "IBM announcement"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_instana",
+              "canonical": "IBM Instana Observability",
+              "aliases": ["Instana"],
+              "detection_patterns": ["instana"],
+              "related_to": ["ibm_concert"],
+              "note": "Related to Concert — do NOT treat as a rename of Concert.",
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_turbonomic",
+              "canonical": "IBM Turbonomic",
+              "aliases": ["Turbonomic"],
+              "detection_patterns": ["turbonomic"],
+              "related_to": ["ibm_concert"],
+              "note": "Related to Concert — do NOT treat as a rename of Concert.",
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_sevone",
+              "canonical": "IBM SevOne",
+              "aliases": ["SevOne"],
+              "detection_patterns": ["sevone"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_ns1",
+              "canonical": "IBM NS1 Connect",
+              "aliases": ["NS1"],
+              "detection_patterns": ["ns1 connect", "ns1"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_workload_automation",
+              "canonical": "IBM Workload Automation",
+              "aliases": ["Workload Automation"],
+              "detection_patterns": ["workload automation"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Confluent": {
-      "approvedName": "Confluent",
-      "historicalNames": [
-        "Confluent Platform",
-        "Confluent Cloud"
-      ],
-      "previousBranding": [],
-      "abbreviations": [],
-      "motions": [
-        "Build real-time operational intelligence"
-      ],
-      "aliases": [
-        "confluent",
-        "confluent platform",
-        "confluent cloud",
-        "confluent kafka",
-        "confluent streaming"
+    {
+      "id": "hybrid_infrastructure",
+      "label": "Hybrid Infrastructure Management",
+      "families": [
+        {
+          "id": "hashicorp_family",
+          "label": "HashiCorp",
+          "acquisition_origin": "HashiCorp",
+          "products": [
+            {
+              "id": "ibm_terraform",
+              "canonical": "IBM Terraform",
+              "aliases": ["Terraform", "Terraform Enterprise", "HCP Terraform"],
+              "detection_patterns": ["terraform"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "hcp_vault",
+              "canonical": "IBM Vault",
+              "aliases": ["Vault Enterprise", "HCP Vault", "HCP Vault Radar"],
+              "detection_patterns": ["hcp vault", "vault enterprise"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "consul_enterprise",
+              "canonical": "Consul Enterprise",
+              "aliases": ["Consul"],
+              "detection_patterns": ["consul enterprise"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "finops_tbm",
+          "label": "FinOps / Technology Business Management",
+          "products": [
+            {
+              "id": "ibm_apptio",
+              "canonical": "IBM Apptio",
+              "aliases": ["Apptio", "ApptioOne"],
+              "detection_patterns": ["apptio"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_cloudability",
+              "canonical": "IBM Cloudability",
+              "aliases": ["Cloudability"],
+              "detection_patterns": ["cloudability"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_targetprocess",
+              "canonical": "IBM Targetprocess",
+              "aliases": ["Targetprocess"],
+              "detection_patterns": ["targetprocess"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "kubecost",
+              "canonical": "Kubecost",
+              "aliases": [],
+              "detection_patterns": ["kubecost"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "DataStage": {
-      "approvedName": "DataStage",
-      "historicalNames": [
-        "InfoSphere DataStage",
-        "WebSphere DataStage",
-        "Ascential DataStage"
-      ],
-      "previousBranding": [
-        "IBM InfoSphere DataStage",
-        "IBM DataStage"
-      ],
-      "abbreviations": ["DS"],
-      "motions": [
-        "Engineer data for real-time use"
-      ],
-      "aliases": [
-        "datastage",
-        "ibm datastage",
-        "infosphere datastage",
-        "websphere datastage",
-        "datastage etl",
-        "datastage elt",
-        "datastage pipeline"
+    {
+      "id": "business_automation",
+      "label": "Business Automation",
+      "families": [
+        {
+          "id": "ba_platform",
+          "label": "Platform, Workflow, Decisions and Content",
+          "products": [
+            {
+              "id": "ibm_cp4ba",
+              "canonical": "IBM Cloud Pak for Business Automation",
+              "aliases": ["CP4BA", "Cloud Pak for Business Automation"],
+              "detection_patterns": ["cloud pak for business automation", "cp4ba"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_baw",
+              "canonical": "Business Automation Workflow",
+              "aliases": ["BAW", "IBM BPM"],
+              "detection_patterns": ["business automation workflow", "ibm bpm"],
+              "legacy": [
+                {"term": "IBM BPM", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "IBM Case Manager", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_odm",
+              "canonical": "Operational Decision Manager",
+              "aliases": ["ODM", "Automation Decision Services"],
+              "detection_patterns": ["operational decision manager", "odm"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_rpa",
+              "canonical": "Robotic Process Automation",
+              "aliases": ["RPA", "IBM RPA"],
+              "detection_patterns": ["robotic process automation", "ibm rpa"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_filenet",
+              "canonical": "FileNet Content Manager",
+              "aliases": ["FileNet", "FileNet P8"],
+              "detection_patterns": ["filenet"],
+              "legacy": [
+                {"term": "FileNet P8", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_datacap",
+              "canonical": "Datacap",
+              "aliases": ["IBM Datacap", "Automation Document Processing"],
+              "detection_patterns": ["datacap"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "StreamSets": {
-      "approvedName": "StreamSets",
-      "historicalNames": [
-        "StreamSets Data Collector",
-        "StreamSets Transformer",
-        "StreamSets Control Hub"
-      ],
-      "previousBranding": [
-        "StreamSets (acquired by IBM 2021)"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Build real-time operational intelligence",
-        "Engineer data for real-time use"
-      ],
-      "aliases": [
-        "streamsets",
-        "ibm streamsets",
-        "streamsets data collector",
-        "streamsets transformer",
-        "streamsets control hub"
+    {
+      "id": "asset_lifecycle_sustainability",
+      "label": "Asset Lifecycle and Sustainability",
+      "families": [
+        {
+          "id": "maximo_family",
+          "label": "Maximo",
+          "products": [
+            {
+              "id": "ibm_maximo",
+              "canonical": "IBM Maximo Application Suite",
+              "aliases": ["Maximo", "MAS", "Maximo Manage"],
+              "detection_patterns": ["maximo"],
+              "legacy": [
+                {"term": "TRIRIGA", "relationship": "child_of", "canonical_successor": "Maximo Real Estate and Facilities", "confidence": "confirmed"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_envizi",
+              "canonical": "IBM Envizi ESG Suite",
+              "aliases": ["Envizi"],
+              "detection_patterns": ["envizi"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Databand": {
-      "approvedName": "Databand",
-      "historicalNames": [
-        "Databand.ai"
-      ],
-      "previousBranding": [
-        "Databand (acquired by IBM 2022)"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "databand",
-        "ibm databand",
-        "databand.ai",
-        "databand observability",
-        "pipeline observability"
+    {
+      "id": "app_runtimes_modernization",
+      "label": "Application Runtimes and Modernization",
+      "families": [
+        {
+          "id": "websphere_family",
+          "label": "WebSphere",
+          "products": [
+            {
+              "id": "ibm_websphere",
+              "canonical": "IBM WebSphere Application Server",
+              "aliases": ["WebSphere", "WebSphere Liberty", "IBM Enterprise Application Runtimes"],
+              "detection_patterns": ["websphere"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_z_cloud_modernization",
+              "canonical": "IBM Z and Cloud Modernization Stack",
+              "aliases": [],
+              "detection_patterns": ["z and cloud modernization"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Unstructured Data Processing": {
-      "approvedName": "Unstructured Data Processing",
-      "historicalNames": [
-        "IBM Content Analytics",
-        "IBM Content Manager",
-        "IBM Datacap"
-      ],
-      "previousBranding": [
-        "IBM Unstructured Data Processing"
-      ],
-      "abbreviations": ["UDP"],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "unstructured data processing",
-        "udp",
-        "ibm content analytics",
-        "ibm datacap",
-        "ibm content manager",
-        "document processing",
-        "document extraction"
+    {
+      "id": "devops_engineering",
+      "label": "DevOps and Engineering",
+      "families": [
+        {
+          "id": "devops_family",
+          "label": "DevOps",
+          "products": [
+            {
+              "id": "ibm_devops_loop",
+              "canonical": "IBM DevOps Loop",
+              "aliases": ["DevOps Deploy", "DevOps Test", "DevOps Velocity", "DevOps Plan"],
+              "detection_patterns": ["ibm devops", "devops loop"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_elm",
+              "canonical": "IBM Engineering Lifecycle Management",
+              "aliases": ["ELM", "DOORS Next", "Engineering Workflow Management"],
+              "detection_patterns": ["engineering lifecycle management", "doors next"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Data Replication / CDC": {
-      "approvedName": "Data Replication / CDC",
-      "historicalNames": [
-        "IBM InfoSphere Data Replication",
-        "IBM InfoSphere Change Data Capture",
-        "IIDR",
-        "IBM CDC"
-      ],
-      "previousBranding": [
-        "DataMirror",
-        "Attunity Replicate"
-      ],
-      "abbreviations": ["CDC", "IIDR"],
-      "motions": [
-        "Engineer data for real-time use",
-        "Build real-time operational intelligence"
-      ],
-      "aliases": [
-        "data replication",
-        "change data capture",
-        "cdc replication",
-        "iidr",
-        "ibm infosphere data replication",
-        "infosphere change data capture",
-        "ibm cdc",
-        "log-based replication"
+    {
+      "id": "ibm_z_software",
+      "label": "IBM Z Software",
+      "families": [
+        {
+          "id": "z_os_transaction",
+          "label": "Operating Systems and Transaction Platforms",
+          "products": [
+            {
+              "id": "z_os",
+              "canonical": "z/OS",
+              "aliases": [],
+              "detection_patterns": ["z/os"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "cics",
+              "canonical": "CICS Transaction Server for z/OS",
+              "aliases": ["CICS"],
+              "detection_patterns": ["cics"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ims",
+              "canonical": "IMS",
+              "aliases": [],
+              "detection_patterns": ["\\bims\\b"],
+              "confidence": "confirmed"
+            }
+          ]
+        },
+        {
+          "id": "z_dev_ops_security",
+          "label": "Z Development, Operations and Security",
+          "products": [
+            {
+              "id": "ibm_developer_zos",
+              "canonical": "IBM Developer for z/OS",
+              "aliases": ["IDz", "RDz", "Rational Developer for z Systems"],
+              "detection_patterns": ["ibm developer for z", "idz", "rdz", "rational developer for z"],
+              "legacy": [
+                {"term": "RDz", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "Rational Developer for z Systems", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "enterprise_cobol",
+              "canonical": "Enterprise COBOL for z/OS",
+              "aliases": ["COBOL"],
+              "detection_patterns": ["enterprise cobol"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Data Governance & Catalog": {
-      "approvedName": "Data Governance & Catalog",
-      "historicalNames": [
-        "IBM Watson Knowledge Catalog",
-        "IBM Unified Governance",
-        "InfoSphere Business Glossary"
-      ],
-      "previousBranding": [
-        "IBM Information Governance Catalog",
-        "IBM Information Server (governance component)"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "data governance",
-        "ibm data governance",
-        "unified governance",
-        "information governance",
-        "data governance catalog",
-        "governance catalog"
+    {
+      "id": "power_os",
+      "label": "Power and Operating Systems",
+      "families": [
+        {
+          "id": "power_software",
+          "label": "Power Software",
+          "note": "Power hardware is a separate taxonomy entity connected via runs_on_platform.",
+          "products": [
+            {
+              "id": "ibm_aix",
+              "canonical": "IBM AIX",
+              "aliases": ["AIX"],
+              "detection_patterns": ["\\baix\\b"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_i",
+              "canonical": "IBM i",
+              "aliases": ["iSeries", "AS/400"],
+              "detection_patterns": ["ibm i", "iseries", "as/400", "as400"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_powervm",
+              "canonical": "IBM PowerVM",
+              "aliases": ["PowerVM"],
+              "detection_patterns": ["powervm"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Data Quality": {
-      "approvedName": "Data Quality",
-      "historicalNames": [
-        "IBM InfoSphere QualityStage",
-        "IBM InfoSphere DataQuality",
-        "IBM DataQuality"
-      ],
-      "previousBranding": [
-        "IBM Information Server (quality component)",
-        "IBM QualityStage"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "data quality",
-        "ibm data quality",
-        "qualitystage",
-        "ibm qualitystage",
-        "infosphere qualitystage",
-        "data profiling",
-        "data cleansing"
+    {
+      "id": "storage_software",
+      "label": "Storage Software",
+      "families": [
+        {
+          "id": "storage_family",
+          "label": "Storage",
+          "products": [
+            {
+              "id": "ibm_storage_protect",
+              "canonical": "IBM Storage Protect",
+              "aliases": ["Storage Protect", "Spectrum Protect", "IBM Spectrum Protect", "Tivoli Storage Manager", "TSM"],
+              "detection_patterns": ["storage protect", "spectrum protect", "tivoli storage manager", "\\btsm\\b"],
+              "legacy": [
+                {"term": "Tivoli Storage Manager", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "TSM", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"},
+                {"term": "Spectrum Protect", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM product rename"}
+              ],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_storage_scale",
+              "canonical": "IBM Storage Scale",
+              "aliases": ["Storage Scale", "Spectrum Scale", "GPFS"],
+              "detection_patterns": ["storage scale", "spectrum scale", "gpfs"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_storage_defender",
+              "canonical": "IBM Storage Defender",
+              "aliases": ["Storage Defender"],
+              "detection_patterns": ["storage defender"],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     },
 
-    "Data Lineage": {
-      "approvedName": "Data Lineage",
-      "historicalNames": [
-        "IBM InfoSphere Information Analyzer (lineage component)",
-        "InfoSphere Business Glossary"
-      ],
-      "previousBranding": [
-        "IBM Information Server (lineage component)"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "data lineage",
-        "ibm data lineage",
-        "lineage tracking",
-        "data provenance",
-        "end-to-end lineage"
-      ]
-    },
-
-    "Data Product Hub": {
-      "approvedName": "Data Product Hub",
-      "historicalNames": [],
-      "previousBranding": [],
-      "abbreviations": ["DPH"],
-      "motions": [
-        "Build real-time operational intelligence",
-        "Accelerate context-intensive AI + analytics",
-        "Engineer data for real-time use"
-      ],
-      "aliases": [
-        "data product hub",
-        "ibm data product hub",
-        "dph"
-      ]
-    },
-
-    "IBM Knowledge Catalog": {
-      "approvedName": "IBM Knowledge Catalog",
-      "historicalNames": [
-        "Watson Knowledge Catalog",
-        "IBM Information Governance Catalog",
-        "InfoSphere Business Glossary"
-      ],
-      "previousBranding": [
-        "Watson Knowledge Catalog (WKC)",
-        "IBM Unified Catalog"
-      ],
-      "abbreviations": ["IKC", "WKC"],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "ibm knowledge catalog",
-        "ibm knowledge catalogue",
-        "ikc",
-        "wkc",
-        "watson knowledge catalog",
-        "watson knowledge catalogue"
-      ]
-    },
-
-    "Manta Data Lineage": {
-      "approvedName": "Manta Data Lineage",
-      "historicalNames": [
-        "Manta",
-        "Manta Flow"
-      ],
-      "previousBranding": [
-        "Manta (acquired by IBM 2023)"
-      ],
-      "abbreviations": ["Manta"],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "manta data lineage",
-        "manta flow",
-        "ibm manta",
-        "manta lineage",
-        "automated data lineage"
-      ]
-    },
-
-    "GPU Acceleration": {
-      "approvedName": "GPU Acceleration",
-      "historicalNames": [],
-      "previousBranding": [
-        "IBM Power AI",
-        "IBM PowerAI (NVIDIA on Power)"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Accelerate context-intensive AI + analytics"
-      ],
-      "aliases": [
-        "gpu acceleration",
-        "ibm gpu",
-        "power ai",
-        "powerai",
-        "nvidia on power",
-        "accelerated computing"
-      ]
-    },
-
-    "DataStax": {
-      "approvedName": "DataStax",
-      "historicalNames": [
-        "Apache Cassandra (managed)",
-        "DataStax Enterprise",
-        "DataStax Astra"
-      ],
-      "previousBranding": [
-        "DataStax (partner product)"
-      ],
-      "abbreviations": [],
-      "motions": [
-        "Build real-time operational intelligence"
-      ],
-      "aliases": [
-        "datastax",
-        "datastax enterprise",
-        "datastax astra",
-        "apache cassandra",
-        "cassandra database"
+    {
+      "id": "ibm_cloud_platform",
+      "label": "IBM Cloud Platform Services",
+      "note": "Maintain service-level records separately from packaged IBM software.",
+      "families": [
+        {
+          "id": "ibm_cloud_services",
+          "label": "IBM Cloud",
+          "products": [
+            {
+              "id": "ibm_cloud",
+              "canonical": "IBM Cloud",
+              "aliases": ["IBM Cloud Satellite", "IBM Cloud Object Storage"],
+              "detection_patterns": ["ibm cloud"],
+              "confidence": "confirmed"
+            },
+            {
+              "id": "ibm_cloud_pak_data",
+              "canonical": "IBM Cloud Pak for Data",
+              "aliases": ["CP4D", "Cloud Pak for Data"],
+              "detection_patterns": ["cloud pak for data", "cp4d"],
+              "legacy": [
+                {"term": "Cloud Pak for Data", "relationship": "successor_of", "canonical_successor": "IBM Software Hub / watsonx data-and-AI services", "confidence": "probable", "source": "IBM product evolution"}
+              ],
+              "confidence": "confirmed"
+            }
+          ]
+        }
       ]
     }
-
-  },
-
-  "_matching_rules": {
-    "rule1": "A product is matched ONLY when an alias phrase appears verbatim (case-insensitive) in the story body text.",
-    "rule2": "Generic terms — 'AI', 'analytics', 'cloud', 'data', 'machine learning', 'pipeline' — are NEVER aliases and NEVER trigger a match on their own.",
-    "rule3": "If no alias from any product matches the story body, set productCategories = [] and flag the story as 'Needs review'.",
-    "rule4": "When an alias matches, record the approvedName (not the alias) in the output. Preserve the original text phrase found in the story separately in productsMentioned for traceability.",
-    "rule5": "Multiple products may match a single story."
-  },
-
-  "_legacy_categories_removed": [
-    "watsonx (generic)",
-    "AI Factsheets",
-    "Cloud Pak for Data",
-    "Master Data Management",
-    "IBM MQ",
-    "App Connect",
-    "API Connect",
-    "DataPower",
-    "Aspera",
-    "Sterling",
-    "IBM Z",
-    "Power Systems",
-    "IBM Cloud",
-    "Red Hat OpenShift",
-    "Red Hat",
-    "FlashSystem"
   ],
 
-  "_legacy_categories_note": "The above categories existed in v1 of this taxonomy and have been superseded. Products like IBM Z, Power Systems, IBM Cloud and Red Hat are infrastructure, not IBM Data Platform products. They should NOT trigger a Data Platform match."
+  "divested_hcl": {
+    "_note": "These are HCL-owned products. Preserve historical terminology and ownership metadata.",
+    "products": ["Notes", "Domino", "Connections", "Unica", "WebSphere Commerce", "WebSphere Portal", "AppScan", "BigFix"]
+  },
+
+  "reference_taxonomies": {
+    "red_hat": {
+      "_note": "Red Hat is maintained as a separate reference taxonomy. Do not automatically merge into IBM Software taxonomy.",
+      "products": ["Red Hat OpenShift", "RHEL", "Red Hat Ansible", "Red Hat Enterprise Linux"]
+    }
+  },
+
+  "no_automatic_successor": [
+    {
+      "term": "Watson Assistant Connected Solutions",
+      "note": "No automatic successor identified"
+    }
+  ]
 }

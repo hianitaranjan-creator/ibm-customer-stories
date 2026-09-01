@@ -33,6 +33,7 @@ _ROOT       = os.path.dirname(_SCRIPT_DIR)
 sys.path.insert(0, _ROOT)
 
 from src.config import GTM_KEYWORDS, GTM_MOTIONS, OUTPUT_DIR, DASH_DIR, DASH_DATA, DASH_HTML
+from src.taxonomy import normalize_products
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
@@ -466,6 +467,21 @@ def main():
 
     stories = [map_story(r, i) for i, r in enumerate(raw_stories)]
 
+    # ── Taxonomy enrichment (additive — never overwrites existing fields) ──────
+    enriched_count = 0
+    for s in stories:
+        body = " ".join(filter(None, [
+            s.get("description"), s.get("challenge"), s.get("solution"),
+            s.get("business_outcomes"), s.get("quantified_proof"),
+            s.get("customer_quote"),
+            " ".join(s.get("topics") or []),
+        ]))
+        tax = normalize_products(body, s.get("products", ""))
+        s.update(tax)
+        if tax["product_tags"]:
+            enriched_count += 1
+    print(f"Taxonomy enrichment: {enriched_count} of {len(stories)} stories matched ≥1 product")
+
     # Summary stats
     strength_counts = {}
     for s in stories:
@@ -484,6 +500,13 @@ def main():
     print(f"\n── GTM motion breakdown ──")
     for k, v in sorted(gtm_counts.items()):
         print(f"  {k}: {v}")
+
+    # Print taxonomy summary
+    from collections import Counter
+    family_counts = Counter(f for s in stories for f in s.get("product_families", []))
+    print(f"\n── Top product families (taxonomy) ──")
+    for fam, cnt in family_counts.most_common(10):
+        print(f"  {cnt:4d}  {fam}")
 
     # Write data.json
     os.makedirs(DASH_DIR, exist_ok=True)
