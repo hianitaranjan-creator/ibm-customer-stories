@@ -56,7 +56,6 @@ button{font-family:inherit;cursor:pointer}
 .tab:hover:not(.on){color:#f4f4f4;background:#393939}
 .tab:focus-visible{outline:2px solid #78a9ff;outline-offset:2px}
 .nav-r{display:flex;align-items:center;gap:10px;flex-shrink:0}
-#live-ct{font-size:11px;color:#8d8d8d}.live-n{color:#78a9ff;font-weight:700}
 #nav-export-btn{display:flex;align-items:center;gap:5px;padding:5px 13px;
   background:transparent;border:1px solid #525252;color:#c6c6c6;
   font-size:11px;font-weight:600;font-family:inherit;cursor:pointer;
@@ -513,7 +512,6 @@ table.gaps tbody td{padding:10px 14px;vertical-align:middle}
 /* ── RESPONSIVE ── */
 @media(max-width:1200px){.nav-badge{display:none}}
 @media(max-width:1100px){.chart-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:900px){#live-ct{display:none}}
 @media(max-width:768px){
   #sidebar{display:none!important}
   #mobile-filter-btn{display:block}
@@ -555,7 +553,6 @@ table.gaps tbody td{padding:10px 14px;vertical-align:middle}
     <button class="tab"    data-view="coverage" role="tab" aria-selected="false" aria-controls="vp-coverage">Coverage</button>
   </div>
   <div class="nav-r">
-    <div id="live-ct" aria-live="polite"><span class="live-n" id="lc-n">—</span> stories</div>
     <button id="rq-btn" aria-label="Open review queue for Needs review fields" aria-haspopup="dialog">
       ✏️ Review Queue <span class="rq-badge" id="rq-badge">0</span>
     </button>
@@ -585,7 +582,6 @@ table.gaps tbody td{padding:10px 14px;vertical-align:middle}
       <div class="kpi" role="listitem"><div class="kn" id="kpi-prod">—</div><div class="kl">Products</div></div>
       <div class="kpi" role="listitem"><div class="kn" id="kpi-ind">—</div><div class="kl">Industries</div></div>
       <div class="kpi" role="listitem"><div class="kn" id="kpi-geo">—</div><div class="kl">Geographies</div></div>
-      <div class="kpi" role="listitem"><div class="kn" id="kpi-outcomes">—</div><div class="kl">With Outcomes</div></div>
     </div>
   </div>
 </div>
@@ -782,7 +778,6 @@ table.gaps tbody td{padding:10px 14px;vertical-align:middle}
               <th data-gcol="col_dim" scope="col">Dimension B <span class="sort-icon" aria-hidden="true">↕</span></th>
               <th data-gcol="count" scope="col">Stories <span class="sort-icon" aria-hidden="true">↕</span></th>
               <th data-gcol="latest" scope="col">Latest Story <span class="sort-icon" aria-hidden="true">↕</span></th>
-              <th data-gcol="outcome_pct" scope="col">Outcome % <span class="sort-icon" aria-hidden="true">↕</span></th>
               <th data-gcol="gap_type" scope="col">Gap Type <span class="sort-icon" aria-hidden="true">↕</span></th>
               <th scope="col">Action</th>
             </tr>
@@ -931,12 +926,10 @@ ALL.forEach(s => storyProds(s).forEach(p => allProds.push(p)));
 const totalCount = ALL.length;
 document.getElementById('kpi-total').textContent  = totalCount;
 document.getElementById('corpus-ct').textContent  = totalCount;
-document.getElementById('lc-n').textContent       = totalCount;
 document.getElementById('kpi-ext').textContent    = ALL.filter(s=>!isIBM(s)).length;
 document.getElementById('kpi-prod').textContent   = uniq(allProds).length;
 document.getElementById('kpi-ind').textContent    = uniq(ALL.map(s=>s.industry).filter(i=>i&&i!=='Needs review')).length;
 document.getElementById('kpi-geo').textContent    = uniq(ALL.map(s=>s.geography).filter(g=>g&&g!=='Needs review')).length;
-document.getElementById('kpi-outcomes').textContent = ALL.filter(s=>s.quantified_proof).length;
 
 const latestDate = ALL.map(s=>s.collected_at||'').filter(Boolean).sort().pop();
 if(latestDate) document.getElementById('index-date').textContent = latestDate.slice(0,10);
@@ -985,7 +978,6 @@ function applyFilters(pushState) {
   });
   _page = 1;
   renderChips(f);
-  document.getElementById('lc-n').textContent = _filtered.length;
   document.getElementById('sb-footer').textContent =
     _filtered.length === ALL.length ? 'Showing all stories'
     : `${_filtered.length} of ${ALL.length} stories`;
@@ -1495,7 +1487,6 @@ function renderGaps(stories, rows, cols) {
       <td>${esc(g.col_dim)}</td>
       <td>${g.count}</td>
       <td class="td-date">${esc(g.latest)}</td>
-      <td>${g.count?g.outcome_pct+'%':'—'}</td>
       <td><span class="gap-type-badge gap-${g.gap_type}">${mxStateLabel(g.gap_type)}</span></td>
       <td><button class="cov-explore-btn" onclick="mxDrill('${esc(g.row_dim)}','${esc(g.col_dim)}')"
         aria-label="View ${esc(g.row_dim)} × ${esc(g.col_dim)} in Explore">View in Explore</button></td>
