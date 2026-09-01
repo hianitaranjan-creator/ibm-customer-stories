@@ -317,11 +317,6 @@ table.ev tbody td{padding:11px 14px;vertical-align:middle;max-width:240px}
   padding:2px 9px;font-size:10px;color:var(--mu);margin:1px 2px 1px 0;
   white-space:nowrap;border-radius:20px;font-weight:500}
 .td-tag.blue{background:#edf5ff;border-color:#d0e2ff;color:var(--blue)}
-/* Outcome with green pill background */
-.td-outcome{font-size:11px;color:#0e6027;line-height:1.4;
-  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
-  background:#defbe6;padding:3px 8px;border-radius:3px;display:block}
-.td-outcome:empty{background:none;padding:0}
 .td-date{font-size:11px;color:var(--fa);white-space:nowrap}
 .no-results{text-align:center;padding:56px 20px;color:var(--mu);
   background:var(--s1);border:1px solid var(--b1);border-radius:var(--r)}
@@ -684,7 +679,6 @@ table.gaps tbody td{padding:10px 14px;vertical-align:middle}
                 <th data-col="industry" scope="col">Industry <span class="sort-icon" aria-hidden="true">↕</span></th>
                 <th data-col="geography" scope="col">Geography <span class="sort-icon" aria-hidden="true">↕</span></th>
                 <th scope="col">Products</th>
-                <th data-col="quantified_proof" scope="col">Outcome</th>
                 <th data-col="publication_date" scope="col">Published <span class="sort-icon" aria-hidden="true">↕</span></th>
               </tr>
             </thead>
@@ -1242,7 +1236,6 @@ function renderTable(stories) {
                ? `<button class="nr-tag" onclick="event.stopPropagation();openRqForStory('${esc(s.story_id)}','products')"
                     aria-label="Needs review — click to fix products" title="Click to assign a value">✏️ Needs review</button>`
                : ''}</td>
-      <td><div class="td-outcome">${esc(s.quantified_proof)}</div></td>
       <td class="td-date">${esc(s.publication_date||'—')}</td>
     </tr>`;
   }).join('');
