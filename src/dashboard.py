@@ -16,8 +16,11 @@ from src import logger
 
 # ── Template HTML path (static preview file with empty data sentinel) ─────────
 _TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), "..", "output", "dashboard", "index.html")
-# Sentinel that appears in the template; Python replaces it with real data.
-_RAW_SENTINEL = 'const _RAW = {"stories":[],"proof_points":[]};'
+# Sentinel pattern: matches both the empty placeholder and any live-data injection.
+_RAW_SENTINEL_EMPTY = 'const _RAW = {"stories":[],"proof_points":[]};'
+_RAW_PREFIX = 'const _RAW = '
+
+import re as _re
 
 # Read template once at import time so the output file can be overwritten freely.
 def _load_template() -> str:
@@ -26,15 +29,29 @@ def _load_template() -> str:
         raise FileNotFoundError(f"Dashboard template not found: {path!r}")
     with open(path, encoding="utf-8") as f:
         content = f.read()
-    if _RAW_SENTINEL not in content:
+    # Accept either the empty sentinel or any live-data const _RAW = ...; line
+    if _RAW_SENTINEL_EMPTY in content:
+        return content  # empty sentinel — use as-is
+    # Find existing live data line and normalise it back to the empty sentinel
+    # so _build_html can do a clean replacement
+    content = _re.sub(
+        r'const _RAW = \{.*?\};',
+        _RAW_SENTINEL_EMPTY,
+        content,
+        count=1,
+        flags=_re.DOTALL,
+    )
+    if _RAW_SENTINEL_EMPTY not in content:
         raise ValueError(
             f"Dashboard template at {path!r} is missing the _RAW sentinel.\n"
-            f"Expected:  {_RAW_SENTINEL!r}\n"
+            f"Expected:  {_RAW_SENTINEL_EMPTY!r}\n"
             "Restore the template file from version control."
         )
     return content
 
 _TEMPLATE_HTML: str = _load_template()
+# Sentinel used by _build_html for replacement (always the empty form)
+_RAW_SENTINEL = _RAW_SENTINEL_EMPTY
 
 
 def _slim_stories(stories: list[dict]) -> list[dict]:
