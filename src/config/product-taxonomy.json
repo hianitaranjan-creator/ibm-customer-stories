@@ -141,8 +141,13 @@
             {
               "id": "watsonx_data_intelligence",
               "canonical": "watsonx.data intelligence",
-              "aliases": [],
-              "detection_patterns": ["watsonx.data intelligence"],
+              "aliases": ["IBM Knowledge Catalog", "Watson Knowledge Catalog", "WKC"],
+              "detection_patterns": [
+                "watsonx.data intelligence",
+                "ibm knowledge catalog",
+                "watson knowledge catalog",
+                "\\bwkc\\b"
+              ],
               "legacy": [
                 {"term": "IBM Knowledge Catalog", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM rename announcement"},
                 {"term": "Watson Knowledge Catalog", "relationship": "former_name_of", "confidence": "confirmed", "source": "IBM rename announcement"},
@@ -184,7 +189,8 @@
               "id": "ibm_knowledge_catalog",
               "canonical": "IBM Knowledge Catalog",
               "aliases": ["Watson Knowledge Catalog", "WKC"],
-              "detection_patterns": ["ibm knowledge catalog", "watson knowledge catalog", "wkc"],
+              "detection_patterns": [],
+              "_note": "Retired product — now part of watsonx.data intelligence. Detection patterns cleared to avoid double-tagging; lineage retained for reference.",
               "legacy": [
                 {"term": "IBM Knowledge Catalog", "relationship": "former_name_of", "canonical_successor": "watsonx.data intelligence", "confidence": "confirmed"}
               ],

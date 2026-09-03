@@ -508,7 +508,7 @@
       "industry": "Aerospace & Defense",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx",
+      "products": "watsonx.data, watsonx.data Integration, watsonx.data Intelligence",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Governed",
       "structured_unstructured": "Both",
@@ -536,13 +536,18 @@
       ],
       "collected_at": "2026-08-28T10:54:41.223Z",
       "product_tags": [
-        "IBM watsonx"
+        "IBM watsonx",
+        "IBM watsonx.data",
+        "watsonx.data integration",
+        "watsonx.data intelligence"
       ],
       "product_families": [
-        "watsonx / AI agents and assistants"
+        "watsonx / AI agents and assistants",
+        "watsonx.data"
       ],
       "product_portfolios": [
-        "AI Productivity"
+        "AI Productivity",
+        "Data Management"
       ],
       "product_taxonomy": [
         {
@@ -557,11 +562,113 @@
           "related_to": [],
           "confidence": "confirmed",
           "note": ""
+        },
+        {
+          "id": "watsonx_data",
+          "canonical": "IBM watsonx.data",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "watsonx.data"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_integration",
+          "canonical": "watsonx.data integration",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [],
+          "legacy": [
+            {
+              "term": "DataStage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            },
+            {
+              "term": "StreamSets",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Databand",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
+            "Watson Knowledge Catalog",
+            "WKC"
+          ],
+          "legacy": [
+            {
+              "term": "IBM Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
         }
       ],
       "taxonomy_search_terms": [
         "IBM watsonx",
-        "watsonx"
+        "watsonx",
+        "IBM watsonx.data",
+        "watsonx.data",
+        "watsonx.data integration",
+        "DataStage",
+        "StreamSets",
+        "Databand",
+        "watsonx.data intelligence",
+        "IBM Knowledge Catalog",
+        "Watson Knowledge Catalog",
+        "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub"
       ]
     },
     {
@@ -2741,7 +2848,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "Global",
-      "products": "Needs review",
+      "products": "watsonx.governance, watsonx.data Intelligence, IBM Cloud Pak for Data, IBM OpenPages",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Governed",
       "structured_unstructured": "Structured",
@@ -2767,11 +2874,186 @@
         "World"
       ],
       "collected_at": "2026-08-28T11:45:27.520Z",
-      "product_tags": [],
-      "product_families": [],
-      "product_portfolios": [],
-      "product_taxonomy": [],
-      "taxonomy_search_terms": []
+      "product_tags": [
+        "IBM watsonx",
+        "IBM watsonx.data",
+        "watsonx.data intelligence",
+        "IBM watsonx.governance",
+        "IBM OpenPages",
+        "IBM Cloud",
+        "IBM Cloud Pak for Data"
+      ],
+      "product_families": [
+        "watsonx / AI agents and assistants",
+        "watsonx.data",
+        "AI / Data Governance",
+        "IBM Cloud"
+      ],
+      "product_portfolios": [
+        "AI Productivity",
+        "Data Management",
+        "Security and Governance",
+        "IBM Cloud Platform Services"
+      ],
+      "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data",
+          "canonical": "IBM watsonx.data",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "watsonx.data"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
+            "Watson Knowledge Catalog",
+            "WKC"
+          ],
+          "legacy": [
+            {
+              "term": "IBM Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_governance",
+          "canonical": "IBM watsonx.governance",
+          "family": "AI / Data Governance",
+          "portfolio": "Security and Governance",
+          "aliases": [
+            "watsonx.governance"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "ibm_openpages",
+          "canonical": "IBM OpenPages",
+          "family": "AI / Data Governance",
+          "portfolio": "Security and Governance",
+          "aliases": [
+            "OpenPages"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "ibm_cloud",
+          "canonical": "IBM Cloud",
+          "family": "IBM Cloud",
+          "portfolio": "IBM Cloud Platform Services",
+          "aliases": [
+            "IBM Cloud Satellite",
+            "IBM Cloud Object Storage"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "ibm_cloud_pak_data",
+          "canonical": "IBM Cloud Pak for Data",
+          "family": "IBM Cloud",
+          "portfolio": "IBM Cloud Platform Services",
+          "aliases": [
+            "CP4D",
+            "Cloud Pak for Data"
+          ],
+          "legacy": [
+            {
+              "term": "Cloud Pak for Data",
+              "relationship": "successor_of",
+              "canonical_successor": "IBM Software Hub / watsonx data-and-AI services",
+              "confidence": "probable",
+              "source": "IBM product evolution"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        }
+      ],
+      "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "IBM watsonx.data",
+        "watsonx.data",
+        "watsonx.data intelligence",
+        "IBM Knowledge Catalog",
+        "Watson Knowledge Catalog",
+        "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub",
+        "IBM watsonx.governance",
+        "watsonx.governance",
+        "IBM OpenPages",
+        "OpenPages",
+        "IBM Cloud",
+        "IBM Cloud Satellite",
+        "IBM Cloud Object Storage",
+        "IBM Cloud Pak for Data",
+        "CP4D",
+        "Cloud Pak for Data"
+      ]
     },
     {
       "story_id": "S0045",
@@ -12767,7 +13049,7 @@
       "industry": "Insurance",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Build real-time operational intelligence",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Unstructured",
@@ -12792,6 +13074,7 @@
       ],
       "collected_at": "2026-08-28T12:27:02.917Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant",
         "IBM Cloud"
       ],
@@ -12804,6 +13087,19 @@
         "IBM Cloud Platform Services"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -12833,6 +13129,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant",
         "IBM Cloud",
@@ -12985,7 +13283,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "OpenPages, Data AI - OpenPages",
+      "products": "IBM Cloud Pak for Data, watsonx.data Intelligence, IBM OpenPages, watsonx.governance",
       "gtm_motions": "Accelerate context-intensive AI + analytics",
       "open_governed_hybrid": "Governed",
       "structured_unstructured": "Structured",
@@ -13018,24 +13316,60 @@
       ],
       "collected_at": "2026-08-28T12:27:07.046Z",
       "product_tags": [
-        "IBM Knowledge Catalog",
-        "IBM OpenPages"
+        "IBM watsonx",
+        "IBM watsonx.data",
+        "watsonx.data intelligence",
+        "IBM watsonx.governance",
+        "IBM OpenPages",
+        "IBM Cloud",
+        "IBM Cloud Pak for Data"
       ],
       "product_families": [
+        "watsonx / AI agents and assistants",
         "watsonx.data",
-        "AI / Data Governance"
+        "AI / Data Governance",
+        "IBM Cloud"
       ],
       "product_portfolios": [
+        "AI Productivity",
         "Data Management",
-        "Security and Governance"
+        "Security and Governance",
+        "IBM Cloud Platform Services"
       ],
       "product_taxonomy": [
         {
-          "id": "ibm_knowledge_catalog",
-          "canonical": "IBM Knowledge Catalog",
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data",
+          "canonical": "IBM watsonx.data",
           "family": "watsonx.data",
           "portfolio": "Data Management",
           "aliases": [
+            "watsonx.data"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
             "Watson Knowledge Catalog",
             "WKC"
           ],
@@ -13043,10 +13377,47 @@
             {
               "term": "IBM Knowledge Catalog",
               "relationship": "former_name_of",
-              "canonical_successor": "watsonx.data intelligence",
-              "confidence": "confirmed"
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
             }
           ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_governance",
+          "canonical": "IBM watsonx.governance",
+          "family": "AI / Data Governance",
+          "portfolio": "Security and Governance",
+          "aliases": [
+            "watsonx.governance"
+          ],
+          "legacy": [],
           "related_to": [],
           "confidence": "confirmed",
           "note": ""
@@ -13063,14 +13434,66 @@
           "related_to": [],
           "confidence": "confirmed",
           "note": ""
+        },
+        {
+          "id": "ibm_cloud",
+          "canonical": "IBM Cloud",
+          "family": "IBM Cloud",
+          "portfolio": "IBM Cloud Platform Services",
+          "aliases": [
+            "IBM Cloud Satellite",
+            "IBM Cloud Object Storage"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "ibm_cloud_pak_data",
+          "canonical": "IBM Cloud Pak for Data",
+          "family": "IBM Cloud",
+          "portfolio": "IBM Cloud Platform Services",
+          "aliases": [
+            "CP4D",
+            "Cloud Pak for Data"
+          ],
+          "legacy": [
+            {
+              "term": "Cloud Pak for Data",
+              "relationship": "successor_of",
+              "canonical_successor": "IBM Software Hub / watsonx data-and-AI services",
+              "confidence": "probable",
+              "source": "IBM product evolution"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "IBM watsonx.data",
+        "watsonx.data",
+        "watsonx.data intelligence",
         "IBM Knowledge Catalog",
         "Watson Knowledge Catalog",
         "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub",
+        "IBM watsonx.governance",
+        "watsonx.governance",
         "IBM OpenPages",
-        "OpenPages"
+        "OpenPages",
+        "IBM Cloud",
+        "IBM Cloud Satellite",
+        "IBM Cloud Object Storage",
+        "IBM Cloud Pak for Data",
+        "CP4D",
+        "Cloud Pak for Data"
       ]
     },
     {
@@ -13580,7 +14003,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "watsonx.data, watsonx, Watson Assistant, Watson",
+      "products": "watsonx.data, watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -16264,7 +16687,7 @@
       "industry": "Healthcare",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx Assistant, watsonx, Watson Assistant, Watson",
+      "products": "watsonx Assistant, watsonx, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -17307,7 +17730,7 @@
       "industry": "Consumer Products",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -17332,6 +17755,7 @@
       ],
       "collected_at": "2026-08-28T12:28:52.485Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant"
       ],
       "product_families": [
@@ -17341,6 +17765,19 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -17356,6 +17793,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant"
       ]
@@ -19677,7 +20116,7 @@
       "industry": "Banking & Financial Markets",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "Watson Discovery, Watson",
+      "products": "watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -19705,11 +20144,34 @@
         "Managed services"
       ],
       "collected_at": "2026-08-28T12:30:16.273Z",
-      "product_tags": [],
-      "product_families": [],
-      "product_portfolios": [],
-      "product_taxonomy": [],
-      "taxonomy_search_terms": []
+      "product_tags": [
+        "IBM watsonx"
+      ],
+      "product_families": [
+        "watsonx / AI agents and assistants"
+      ],
+      "product_portfolios": [
+        "AI Productivity"
+      ],
+      "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        }
+      ],
+      "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx"
+      ]
     },
     {
       "story_id": "S0310",
@@ -19841,7 +20303,7 @@
       "industry": "Travel & Transportation",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx Orchestrate, watsonx, Watson Assistant, Watson",
+      "products": "watsonx Orchestrate, watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -20727,7 +21189,7 @@
       "industry": "Automotive",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx.ai, watsonx, Watson Assistant, Watson",
+      "products": "watsonx.ai, watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Unstructured",
@@ -21356,7 +21818,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx.ai, watsonx Assistant, watsonx, Watson Discovery, Watson",
+      "products": "watsonx.ai, watsonx Assistant, watsonx, watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -22411,7 +22873,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "OpenPages",
+      "products": "IBM DataStage, watsonx.data Intelligence, IBM OpenPages",
       "gtm_motions": "Engineer data for real-time use",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -22440,22 +22902,99 @@
       ],
       "collected_at": "2026-08-28T12:31:39.935Z",
       "product_tags": [
+        "IBM watsonx",
+        "IBM watsonx.data",
+        "watsonx.data intelligence",
         "IBM DataStage",
         "IBM OpenPages",
         "IBM Cloud",
         "IBM Cloud Pak for Data"
       ],
       "product_families": [
+        "watsonx / AI agents and assistants",
         "watsonx.data",
         "AI / Data Governance",
         "IBM Cloud"
       ],
       "product_portfolios": [
+        "AI Productivity",
         "Data Management",
         "Security and Governance",
         "IBM Cloud Platform Services"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data",
+          "canonical": "IBM watsonx.data",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "watsonx.data"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
+            "Watson Knowledge Catalog",
+            "WKC"
+          ],
+          "legacy": [
+            {
+              "term": "IBM Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "ibm_datastage",
           "canonical": "IBM DataStage",
@@ -22521,6 +23060,17 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "IBM watsonx.data",
+        "watsonx.data",
+        "watsonx.data intelligence",
+        "IBM Knowledge Catalog",
+        "Watson Knowledge Catalog",
+        "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub",
         "IBM DataStage",
         "DataStage",
         "InfoSphere DataStage",
@@ -22685,7 +23235,7 @@
       "industry": "Media & Entertainment",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -22709,6 +23259,7 @@
       ],
       "collected_at": "2026-08-28T12:31:45.679Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant"
       ],
       "product_families": [
@@ -22718,6 +23269,19 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -22733,6 +23297,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant"
       ]
@@ -22746,7 +23312,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx.ai, watsonx, Watson Discovery, Watson",
+      "products": "watsonx.ai, watsonx, watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -24295,7 +24861,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -24320,6 +24886,7 @@
       ],
       "collected_at": "2026-08-28T12:32:36.216Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant",
         "Robotic Process Automation"
       ],
@@ -24332,6 +24899,19 @@
         "Business Automation"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -24361,6 +24941,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant",
         "Robotic Process Automation",
@@ -31676,7 +32258,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Build real-time operational intelligence",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Unstructured",
@@ -31703,6 +32285,7 @@
       ],
       "collected_at": "2026-08-28T12:36:08.927Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant"
       ],
       "product_families": [
@@ -31712,6 +32295,19 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -31727,6 +32323,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant"
       ]
@@ -32428,7 +33026,7 @@
       "industry": "Telecommunications",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "watsonx Assistant, watsonx, Watson Assistant, Watson",
+      "products": "watsonx Assistant, watsonx, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -32514,7 +33112,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx.ai, watsonx, Watson Discovery, Watson",
+      "products": "watsonx.ai, watsonx, watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -36318,7 +36916,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx Assistant, watsonx, Watson Discovery, Watson",
+      "products": "watsonx Assistant, watsonx, watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -36394,7 +36992,7 @@
       "industry": "Media & Entertainment",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -36418,6 +37016,7 @@
       ],
       "collected_at": "2026-08-28T12:38:46.831Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant"
       ],
       "product_families": [
@@ -36427,6 +37026,19 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -36442,6 +37054,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant"
       ]
@@ -36776,7 +37390,7 @@
       "industry": "Banking & Financial Markets",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx, Watson Assistant, Watson",
+      "products": "watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Build real-time operational intelligence",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -37780,7 +38394,7 @@
       "industry": "Retail",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "watsonx, Watson Assistant, Watson",
+      "products": "watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -41923,7 +42537,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "Needs review",
+      "products": "watsonx.data Intelligence, IBM Cloud Pak for Data",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -41947,16 +42561,95 @@
       ],
       "collected_at": "2026-08-28T12:41:39.791Z",
       "product_tags": [
+        "IBM watsonx",
+        "IBM watsonx.data",
+        "watsonx.data intelligence",
         "IBM Cloud",
         "IBM Cloud Pak for Data"
       ],
       "product_families": [
+        "watsonx / AI agents and assistants",
+        "watsonx.data",
         "IBM Cloud"
       ],
       "product_portfolios": [
+        "AI Productivity",
+        "Data Management",
         "IBM Cloud Platform Services"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data",
+          "canonical": "IBM watsonx.data",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "watsonx.data"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
+            "Watson Knowledge Catalog",
+            "WKC"
+          ],
+          "legacy": [
+            {
+              "term": "IBM Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "ibm_cloud",
           "canonical": "IBM Cloud",
@@ -41995,6 +42688,17 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "IBM watsonx.data",
+        "watsonx.data",
+        "watsonx.data intelligence",
+        "IBM Knowledge Catalog",
+        "Watson Knowledge Catalog",
+        "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub",
         "IBM Cloud",
         "IBM Cloud Satellite",
         "IBM Cloud Object Storage",
@@ -46010,7 +46714,7 @@
       "industry": "Industrial",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx.ai, watsonx Assistant, watsonx, Watson Assistant, Watson",
+      "products": "watsonx.ai, watsonx Assistant, watsonx, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Both",
@@ -46545,7 +47249,7 @@
       "industry": "Energy & Utilities",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Needs review",
+      "products": "IBM Cloud Pak for Data, watsonx.data Intelligence, Red Hat OpenShift",
       "gtm_motions": "Accelerate context-intensive AI + analytics",
       "open_governed_hybrid": "Governed",
       "structured_unstructured": "Structured",
@@ -46571,11 +47275,152 @@
         "Greece"
       ],
       "collected_at": "2026-08-28T12:43:33.743Z",
-      "product_tags": [],
-      "product_families": [],
-      "product_portfolios": [],
-      "product_taxonomy": [],
-      "taxonomy_search_terms": []
+      "product_tags": [
+        "IBM watsonx",
+        "IBM watsonx.data",
+        "watsonx.data intelligence",
+        "IBM Cloud",
+        "IBM Cloud Pak for Data"
+      ],
+      "product_families": [
+        "watsonx / AI agents and assistants",
+        "watsonx.data",
+        "IBM Cloud"
+      ],
+      "product_portfolios": [
+        "AI Productivity",
+        "Data Management",
+        "IBM Cloud Platform Services"
+      ],
+      "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data",
+          "canonical": "IBM watsonx.data",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "watsonx.data"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
+            "Watson Knowledge Catalog",
+            "WKC"
+          ],
+          "legacy": [
+            {
+              "term": "IBM Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "ibm_cloud",
+          "canonical": "IBM Cloud",
+          "family": "IBM Cloud",
+          "portfolio": "IBM Cloud Platform Services",
+          "aliases": [
+            "IBM Cloud Satellite",
+            "IBM Cloud Object Storage"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "ibm_cloud_pak_data",
+          "canonical": "IBM Cloud Pak for Data",
+          "family": "IBM Cloud",
+          "portfolio": "IBM Cloud Platform Services",
+          "aliases": [
+            "CP4D",
+            "Cloud Pak for Data"
+          ],
+          "legacy": [
+            {
+              "term": "Cloud Pak for Data",
+              "relationship": "successor_of",
+              "canonical_successor": "IBM Software Hub / watsonx data-and-AI services",
+              "confidence": "probable",
+              "source": "IBM product evolution"
+            }
+          ],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        }
+      ],
+      "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "IBM watsonx.data",
+        "watsonx.data",
+        "watsonx.data intelligence",
+        "IBM Knowledge Catalog",
+        "Watson Knowledge Catalog",
+        "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub",
+        "IBM Cloud",
+        "IBM Cloud Satellite",
+        "IBM Cloud Object Storage",
+        "IBM Cloud Pak for Data",
+        "CP4D",
+        "Cloud Pak for Data"
+      ]
     },
     {
       "story_id": "S0733",
@@ -47061,7 +47906,7 @@
       "industry": "Energy & Utilities",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Watson Discovery, Watson",
+      "products": "watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -47088,11 +47933,34 @@
         "AI Apps Sustainability"
       ],
       "collected_at": "2026-08-28T12:43:47.922Z",
-      "product_tags": [],
-      "product_families": [],
-      "product_portfolios": [],
-      "product_taxonomy": [],
-      "taxonomy_search_terms": []
+      "product_tags": [
+        "IBM watsonx"
+      ],
+      "product_families": [
+        "watsonx / AI agents and assistants"
+      ],
+      "product_portfolios": [
+        "AI Productivity"
+      ],
+      "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        }
+      ],
+      "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx"
+      ]
     },
     {
       "story_id": "S0741",
@@ -47591,7 +48459,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx.data, watsonx",
+      "products": "watsonx.data, watsonx.ai, IBM Cognos Analytics, watsonx.data Intelligence",
       "gtm_motions": "Accelerate context-intensive AI + analytics; Engineer data for real-time use",
       "open_governed_hybrid": "Governed",
       "structured_unstructured": "Structured",
@@ -47620,7 +48488,9 @@
       "collected_at": "2026-08-28T12:44:02.884Z",
       "product_tags": [
         "IBM watsonx",
+        "watsonx.ai",
         "IBM watsonx.data",
+        "watsonx.data intelligence",
         "IBM Cognos Analytics"
       ],
       "product_families": [
@@ -47647,6 +48517,20 @@
           "note": ""
         },
         {
+          "id": "watsonx_ai",
+          "canonical": "watsonx.ai",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx.ai Studio",
+            "watsonx AI"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
           "id": "watsonx_data",
           "canonical": "IBM watsonx.data",
           "family": "watsonx.data",
@@ -47655,6 +48539,52 @@
             "watsonx.data"
           ],
           "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_data_intelligence",
+          "canonical": "watsonx.data intelligence",
+          "family": "watsonx.data",
+          "portfolio": "Data Management",
+          "aliases": [
+            "IBM Knowledge Catalog",
+            "Watson Knowledge Catalog",
+            "WKC"
+          ],
+          "legacy": [
+            {
+              "term": "IBM Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Watson Knowledge Catalog",
+              "relationship": "former_name_of",
+              "confidence": "confirmed",
+              "source": "IBM rename announcement"
+            },
+            {
+              "term": "Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "IBM Manta Data Lineage",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM acquisition"
+            },
+            {
+              "term": "Data Product Hub",
+              "relationship": "child_of",
+              "confidence": "confirmed",
+              "source": "IBM product docs"
+            }
+          ],
           "related_to": [],
           "confidence": "confirmed",
           "note": ""
@@ -47677,8 +48607,18 @@
       "taxonomy_search_terms": [
         "IBM watsonx",
         "watsonx",
+        "watsonx.ai",
+        "watsonx.ai Studio",
+        "watsonx AI",
         "IBM watsonx.data",
         "watsonx.data",
+        "watsonx.data intelligence",
+        "IBM Knowledge Catalog",
+        "Watson Knowledge Catalog",
+        "WKC",
+        "Manta Data Lineage",
+        "IBM Manta Data Lineage",
+        "Data Product Hub",
         "IBM Cognos Analytics",
         "Cognos",
         "Cognos Analytics"
@@ -49394,7 +50334,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Global",
-      "products": "Watson Studio, Watson Machine Learning, Watson",
+      "products": "watsonx.ai Studio, watsonx.ai Runtime, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -49414,6 +50354,8 @@
       "topics": [],
       "collected_at": "2026-08-28T12:45:04.176Z",
       "product_tags": [
+        "IBM watsonx",
+        "watsonx.ai",
         "watsonx.ai Studio",
         "watsonx.ai Runtime",
         "IBM Cloud Pak for Data"
@@ -49427,6 +50369,33 @@
         "IBM Cloud Platform Services"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_ai",
+          "canonical": "watsonx.ai",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx.ai Studio",
+            "watsonx AI"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_ai_studio",
           "canonical": "watsonx.ai Studio",
@@ -49487,7 +50456,11 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "watsonx.ai",
         "watsonx.ai Studio",
+        "watsonx AI",
         "Watson Studio",
         "watsonx.ai Runtime",
         "Watson Machine Learning",
@@ -49772,7 +50745,7 @@
       "industry": "Media & Entertainment",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "watsonx Assistant, watsonx, Watson Assistant, Watson",
+      "products": "watsonx Assistant, watsonx, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Both",
@@ -56885,7 +57858,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "Watson Discovery, Watson",
+      "products": "watsonx Discovery, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -56911,11 +57884,34 @@
         "Data AI"
       ],
       "collected_at": "2026-08-28T12:52:48.832Z",
-      "product_tags": [],
-      "product_families": [],
-      "product_portfolios": [],
-      "product_taxonomy": [],
-      "taxonomy_search_terms": []
+      "product_tags": [
+        "IBM watsonx"
+      ],
+      "product_families": [
+        "watsonx / AI agents and assistants"
+      ],
+      "product_portfolios": [
+        "AI Productivity"
+      ],
+      "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        }
+      ],
+      "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx"
+      ]
     },
     {
       "story_id": "S0907",
@@ -59167,7 +60163,7 @@
       "industry": "Technology",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx, Watson Assistant, Watson",
+      "products": "watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -60225,7 +61221,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Asia Pacific",
-      "products": "watsonx Assistant, watsonx, Watson Assistant, Watson",
+      "products": "watsonx Assistant, watsonx, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -60593,7 +61589,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "watsonx, Watson Assistant, Watson",
+      "products": "watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -61846,7 +62842,7 @@
       "industry": "Banking & Financial Markets",
       "sub_industry": null,
       "geography": "EMEA",
-      "products": "watsonx, Watson Assistant, Watson",
+      "products": "watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -63019,7 +64015,7 @@
       "industry": "Automotive",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "Watson Machine Learning, Watson",
+      "products": "watsonx.ai Runtime, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -63043,6 +64039,8 @@
       ],
       "collected_at": "2026-08-28T13:16:32.594Z",
       "product_tags": [
+        "IBM watsonx",
+        "watsonx.ai",
         "watsonx.ai Runtime"
       ],
       "product_families": [
@@ -63052,6 +64050,33 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_ai",
+          "canonical": "watsonx.ai",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx.ai Studio",
+            "watsonx AI"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_ai_runtime",
           "canonical": "watsonx.ai Runtime",
@@ -63072,6 +64097,11 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "watsonx.ai",
+        "watsonx.ai Studio",
+        "watsonx AI",
         "watsonx.ai Runtime",
         "Watson Machine Learning"
       ]
@@ -63085,7 +64115,7 @@
       "industry": "Consumer Products",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "Watson Machine Learning, Watson",
+      "products": "watsonx.ai Runtime, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Structured",
@@ -63109,6 +64139,8 @@
       ],
       "collected_at": "2026-08-28T13:16:34.437Z",
       "product_tags": [
+        "IBM watsonx",
+        "watsonx.ai",
         "watsonx.ai Runtime"
       ],
       "product_families": [
@@ -63118,6 +64150,33 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
+        {
+          "id": "watsonx_ai",
+          "canonical": "watsonx.ai",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx.ai Studio",
+            "watsonx AI"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_ai_runtime",
           "canonical": "watsonx.ai Runtime",
@@ -63138,6 +64197,11 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
+        "watsonx.ai",
+        "watsonx.ai Studio",
+        "watsonx AI",
         "watsonx.ai Runtime",
         "Watson Machine Learning"
       ]
@@ -63320,7 +64384,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Unstructured",
@@ -63348,6 +64412,7 @@
       ],
       "collected_at": "2026-08-28T13:16:42.188Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant",
         "IBM i",
         "IBM Cloud"
@@ -63363,6 +64428,19 @@
         "IBM Cloud Platform Services"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -63406,6 +64484,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant",
         "IBM i",
@@ -68764,7 +69844,7 @@
       "industry": "Needs review",
       "sub_industry": null,
       "geography": "Global",
-      "products": "Watson Assistant, Watson",
+      "products": "watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Hybrid",
       "structured_unstructured": "Unstructured",
@@ -68788,6 +69868,7 @@
       ],
       "collected_at": "2026-08-28T13:34:47.854Z",
       "product_tags": [
+        "IBM watsonx",
         "watsonx Assistant",
         "IBM Watson Speech to Text"
       ],
@@ -68798,6 +69879,19 @@
         "AI Productivity"
       ],
       "product_taxonomy": [
+        {
+          "id": "ibm_watsonx",
+          "canonical": "IBM watsonx",
+          "family": "watsonx / AI agents and assistants",
+          "portfolio": "AI Productivity",
+          "aliases": [
+            "watsonx"
+          ],
+          "legacy": [],
+          "related_to": [],
+          "confidence": "confirmed",
+          "note": ""
+        },
         {
           "id": "watsonx_assistant",
           "canonical": "watsonx Assistant",
@@ -68827,6 +69921,8 @@
         }
       ],
       "taxonomy_search_terms": [
+        "IBM watsonx",
+        "watsonx",
         "watsonx Assistant",
         "Watson Assistant",
         "IBM Watson Speech to Text",
@@ -70026,7 +71122,7 @@
       "industry": "Banking & Financial Markets",
       "sub_industry": null,
       "geography": "Americas",
-      "products": "watsonx Orchestrate, watsonx, Watson Assistant, Watson",
+      "products": "watsonx Orchestrate, watsonx, watsonx Assistant, Watson",
       "gtm_motions": "Needs review",
       "open_governed_hybrid": "Governed",
       "structured_unstructured": "Structured",

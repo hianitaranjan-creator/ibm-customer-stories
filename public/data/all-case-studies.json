@@ -183,7 +183,11 @@
     "productCategories": [
       "Artificial intelligence"
     ],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "watsonx.data",
+      "watsonx.data Integration",
+      "watsonx.data Intelligence"
+    ],
     "topics": [
       "AI and ML",
       "United States of America",
@@ -1211,7 +1215,12 @@
       "Data and analytics",
       "Business operation and productivity (DevOps)"
     ],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "watsonx.governance",
+      "IBM Knowledge Catalog",
+      "IBM Cloud Pak for Data",
+      "IBM OpenPages"
+    ],
     "topics": [
       "AI governance",
       "Technology -- Industry",
@@ -5492,7 +5501,12 @@
     "productCategories": [
       "Business operation and productivity (DevOps)"
     ],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "IBM Cloud Pak for Data",
+      "IBM Knowledge Catalog",
+      "IBM OpenPages",
+      "watsonx.governance"
+    ],
     "topics": [
       "Governance risk and compliance",
       "United States of America",
@@ -9332,7 +9346,11 @@
       "Data and analytics",
       "Business operation and productivity (DevOps)"
     ],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "IBM DataStage",
+      "IBM Knowledge Catalog",
+      "IBM OpenPages"
+    ],
     "topics": [
       "Data migration",
       "United States of America",
@@ -17134,7 +17152,10 @@
     "industry": "Needs review",
     "geography": "Americas",
     "productCategories": [],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "IBM Knowledge Catalog",
+      "IBM Cloud Pak for Data"
+    ],
     "topics": [
       "Analytics",
       "United States of America",
@@ -19035,7 +19056,11 @@
     "productCategories": [
       "Data and analytics"
     ],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "IBM Cloud Pak for Data",
+      "IBM Knowledge Catalog",
+      "Red Hat OpenShift"
+    ],
     "topics": [
       "Public cloud",
       "Energy and utilities",
@@ -19470,7 +19495,12 @@
     "productCategories": [
       "Artificial intelligence"
     ],
-    "productsMentioned": [],
+    "productsMentioned": [
+      "watsonx.data",
+      "watsonx.ai",
+      "IBM Cognos Analytics",
+      "IBM Knowledge Catalog"
+    ],
     "topics": [
       "Artificial intelligence",
       "United States of America",

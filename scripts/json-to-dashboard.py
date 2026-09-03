@@ -61,14 +61,15 @@ _WATSON_PRODUCT_PATTERNS: list[tuple[re.Pattern, str]] = [
     (re.compile(r"watsonx[\s.]?governance",                 re.IGNORECASE), "watsonx.governance"),
     (re.compile(r"watsonx[\s.]?code\s+assistant",           re.IGNORECASE), "watsonx Code Assistant"),
     (re.compile(r"\bwatsonx\b",                             re.IGNORECASE), "watsonx"),
-    # Classic Watson products
-    (re.compile(r"watson\s+knowledge\s+catalog",            re.IGNORECASE), "Watson Knowledge Catalog"),
-    (re.compile(r"watson\s+studio",                         re.IGNORECASE), "Watson Studio"),
-    (re.compile(r"watson\s+discovery",                      re.IGNORECASE), "Watson Discovery"),
-    (re.compile(r"watson\s+assistant",                      re.IGNORECASE), "Watson Assistant"),
-    (re.compile(r"watson\s+machine\s+learning",             re.IGNORECASE), "Watson Machine Learning"),
-    (re.compile(r"watson\s+nlp",                            re.IGNORECASE), "Watson NLP"),
-    (re.compile(r"watson\s+openscale|openscale",            re.IGNORECASE), "Watson OpenScale"),
+    # Classic Watson products — mapped to their modern watsonx successors
+    (re.compile(r"ibm\s+knowledge\s+catalog",               re.IGNORECASE), "watsonx.data Intelligence"),
+    (re.compile(r"watson\s+knowledge\s+catalog",            re.IGNORECASE), "watsonx.data Intelligence"),
+    (re.compile(r"watson\s+studio",                         re.IGNORECASE), "watsonx.ai Studio"),
+    (re.compile(r"watson\s+discovery",                      re.IGNORECASE), "watsonx Discovery"),
+    (re.compile(r"watson\s+assistant",                      re.IGNORECASE), "watsonx Assistant"),
+    (re.compile(r"watson\s+machine\s+learning",             re.IGNORECASE), "watsonx.ai Runtime"),
+    (re.compile(r"watson\s+nlp",                            re.IGNORECASE), "watsonx.ai Runtime"),
+    (re.compile(r"watson\s+openscale|openscale",            re.IGNORECASE), "watsonx.governance"),
     (re.compile(r"\bwatson\b",                              re.IGNORECASE), "Watson"),
 ]
 
@@ -87,12 +88,32 @@ def _resolve_watson_products(text: str) -> list[str]:
     return found
 
 
+# ── Deprecated product name → modern successor (exact string match, case-insensitive)
+# Applied to every entry in productsMentioned[] before writing to the products CSV.
+_DEPRECATED_NAMES: dict[str, str] = {
+    "ibm knowledge catalog":      "watsonx.data Intelligence",
+    "watson knowledge catalog":   "watsonx.data Intelligence",
+    "wkc":                        "watsonx.data Intelligence",
+    "watson studio":              "watsonx.ai Studio",
+    "watson machine learning":    "watsonx.ai Runtime",
+    "watson openscale":           "watsonx.governance",
+    "openscale":                  "watsonx.governance",
+}
+
+
+def _remap_deprecated(name: str) -> str:
+    """Return the modern product name if `name` is deprecated, else return it unchanged."""
+    return _DEPRECATED_NAMES.get(name.lower().strip(), name)
+
+
 def _extract_products(raw: dict) -> str:
     """
     Build the products CSV for a story.
 
     Priority:
       1. productsMentioned[] from crawler (authoritative when present)
+         — deprecated names are remapped to their modern successors
+         — generic "watsonx" / "Watson" entries are expanded from body text
       2. Watson/watsonx products resolved from full body text
       3. Watson/watsonx products resolved from topics[]
       4. Non-watson topics that look like IBM product names
@@ -101,7 +122,6 @@ def _extract_products(raw: dict) -> str:
     # 1. Crawler-supplied productsMentioned
     mentioned = [p.strip() for p in (raw.get("productsMentioned") or []) if p and p.strip()]
     if mentioned:
-        # Still enrich: resolve any "watsonx" / "Watson" entries to full names
         enriched: list[str] = []
         all_body = " ".join(filter(None, [
             raw.get("description"), raw.get("challenge"),
@@ -110,14 +130,16 @@ def _extract_products(raw: dict) -> str:
         ]))
         watson_from_body = _resolve_watson_products(all_body)
         for p in mentioned:
-            # If it's a generic "watsonx" / "Watson" entry, replace with specifics
+            # Expand generic "watsonx" / "Watson" to specific sub-products from body text
             if re.match(r"^watsonx$|^watson$", p, re.IGNORECASE) and watson_from_body:
                 for wp in watson_from_body:
                     if wp not in enriched:
                         enriched.append(wp)
             else:
-                if p not in enriched:
-                    enriched.append(p)
+                # Remap deprecated names to their modern successors
+                modern = _remap_deprecated(p)
+                if modern not in enriched:
+                    enriched.append(modern)
         return ", ".join(enriched)
 
     # 2 + 3. No productsMentioned — resolve from body text + topics
